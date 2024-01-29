@@ -1,0 +1,2595 @@
+{
+    "APP": {
+        "NAVBAR": {
+            "DROPDOWN": {
+                "PROFILE": "Profil",
+                "SETTINGS": "Paramétres",
+                "LOGOUT": "Se déconnecter"
+            }
+        },
+        "SIDEBAR": {
+            "DAHSBOARD": "Accueil",
+            "QUESTIONS": "Questions",
+            "SECTIONS": "Sections",
+            "PROFILE": "Profile",
+            "USERS": "Utilisateurs",
+            "CLIENTS": "Clients",
+            "CLIENTS-TACHES": "Client-tache",
+            "COLLABORATEURS": "Collaborateurs",
+            "MANAGERS": "Managers",
+            "TACHES": "Taches",
+            "ACTIVITY": "Activitée",
+            "CAMIONS": "Camions",
+            "CHAUFFEUR": "Chauffeur",
+            "SS": "Sous-traitant",
+            "MUNICIAPLITY": "Municipalités",
+            "PRESTATION": "Prestations",
+            "HPRESTATION": "HPrestation",
+            "NOTE": "Note",
+            "NOTIFICATION": "Notificaiton",
+            "ACCOUNT": "Compte",
+            "CHANGE_PASSWORD": "Changer le mot de passe",
+            "SETTINGS": "Paramétres",
+            "DISPLAY": "Affichage",
+            "CONTACT_US": "Contacter-Nous",
+            "MORE_ABOUT_BPS": "Plus de BPS"
+        },
+        "BODY": {
+            "REGISTER": {
+                "CARD": {
+                    "TITLE": {
+                        "TEXT": "S'inscrire",
+                        "HINT": "Abonnez-vous"
+                    },
+                    "BODY": {
+                        "USERNAME": {
+                            "TEXT": " Nom de l'utilisateur",
+                            "PLACEHOLDER": "Nom de l'utlisateur",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire"
+                        },
+                        "COMPANY": {
+                            "LOGO": "Logo d'entreprise",
+                            "TEXT": "Nom de l'entreprise",
+                            "PLACEHOLDER": "Nom de l'entreprise",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire"
+                        },
+                        "ADDRESS": {
+                            "TEXT": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire"
+                        },
+                        "PHONE": {
+                            "TEXT": "Téléphone",
+                            "PLACEHOLDER": "Téléphone",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de téléphone doit comporter 8 chiffres"
+                        },
+                        "FAX": {
+                            "TEXT": "Fax",
+                            "PLACEHOLDER": "Nom de l'entreprise",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": " Le numéro de fax doit comporter 8 chiffres"
+                        },
+                        "EMAIL": {
+                            "TEXT": "E-mail",
+                            "PLACEHOLDER": "Email",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Format invalide"
+                        },
+                        "PASSWORD": {
+                            "TEXT": "Mot de passe",
+                            "PLACEHOLDER": "Mot de passe",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "MIN_LENGTH_MESSAGE": "Votre mot de passe doit contenir au moins 8 caractères",
+                            "PASSWORD_PATTERN_MESSAGE": "Votre mot de passe doit contenir des lettres, des chiffres et des caractères spéciaux "
+                        },
+                        "NEW_PASSWORD": {
+                            "TEXT": "Nouveau Mot de passe",
+                            "PLACEHOLDER": "Votre nouveau mot de passe",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "MIN_LENGTH_MESSAGE": "Votre nouveau mot de passe doit contenir au moins 8 caractères",
+                            "PASSWORD_PATTERN_MESSAGE": "Votre nouveau mot de passe doit contenir des lettres, des chiffres et des caractères spéciaux "
+                        },
+                        "CONFIRM_PASSWORD": {
+                            "TEXT": "Confirmez le mot de passe",
+                            "PLACEHOLDER": "Confirmer votre mot de passe",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "MATCHING_PASSWORDS_MESSAGE": "Les mots de passe ne correspondent pas. Veuillez réessayer"
+                        }
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "REGISTRATION_BTN": "S'inscrire",
+                            "NEXT_BTN": "Continuer",
+                            "CANCEL": "Annuler"
+                        },
+                        "TEXTS": {
+                            "SIGN_UP_WITH": "Se connecter avec",
+                            "HAVE_ACCOUNT_TEXT": "Avez vous déjà un compte",
+                            "LOGIN_TEXT": "Connexion"
+                        },
+                        "PRIVICY": {
+                            "TEXT": "En cliquant sur S'inscrire, je reconnais avoir lu et accepté les conditions d'utilisation et la politique de confidentialité de Parkini"
+                        }
+                    }
+                }
+            },
+            "LOGIN": {
+                "CARD": {
+                    "TITLE": {
+                        "TEXT": "Connexion",
+                        "HINT": "Accéder à votre compte"
+                    },
+                    "EMAIL": {
+                        "TEXT": " Nom de l'utilisateur",
+                        "PLACEHOLDER": "Nom de l'utlisateur",
+                        "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                        "INVALID_FORMAT_MESSAGE": "Format invalide"
+                    },
+                    "PASSWORD": {
+                        "TEXT": "Mot de passe",
+                        "PLACEHOLDER": "Votre Mot de passe",
+                        "REQUIRED_FIELD_MESSAGE": "Champ obligatoire"
+                    },
+                    "NEW_PASSWORD": {
+                        "TEXT": "Mot de passe",
+                        "PLACEHOLDER": "Votre Mot de passe",
+                        "REQUIRED_FIELD_MESSAGE": "Champ obligatoire"
+                    },
+                    "INEXISTANT_ACCOUNT": {
+                        "TEXT": "Vous n'avez pas de compte ?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "LOGIN_BTN": "Connexion"
+                        },
+                        "TEXTS": {
+                            "FORGOT_PASSWORD": "Mot de passe oublié",
+                            "RESET_PASSWORD": "Réinitialisez votre mot de passe"
+                        }
+                    }
+                }
+            },
+            "CLIENTS": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Clients",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Nombre de clients"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NAME": "Nom",
+                        "RS": "Raison sociale",
+                        "SIRET": "SIRET",
+                        "ADDRESS": "Adresse",
+                        "EMAIL": "E-mail",
+                        "MATRICULE_FISCALE": "Matricule Fiscale",
+                        "PHONE": "Téléphone",
+                        "FAX": "Fax",
+                        "ACTIONS": "Actions"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter un Client"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier un Client"
+                        },
+                        "HISTORY_HEADER": {
+                            "TITLE": "Historique du Client"
+                        }
+                    },
+                    "BODY": {
+                        "NAME": {
+                            "TEXT": "Nom",
+                            "PLACEHOLDER": "Nom",
+                            "REQUIRED": "Nom obligatoire",
+                            "ALREADY_EXIST": "Le nom existe déjà"
+                        },
+                        "RS": {
+                            "TEXT": "Raison sociale",
+                            "PLACEHOLDER": "Raison sociale",
+                            "REQUIRED": "Raison sociale obligatoire",
+                            "ALREADY_EXIST": "raison sociale existe déjà"
+                        },
+                        "EMAIL": {
+                            "TEXT": "Email",
+                            "PLACEHOLDER": "Email",
+                            "REQUIRED": "Email obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Format invalide"
+                        },
+                        "ADDRESS": {
+                            "TEXT": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "REQUIRED": "Address obligatoire"
+                        },
+                        "MATRICULE_FISCALE": {
+                            "TEXT": "Matricule Fiscale",
+                            "PLACEHOLDER": "Matricule Fiscale",
+                            "REQUIRED": "Matricule Fiscale is required",
+                            "STATUS_INVALID": "Le caractère de statut n'est pas valide",
+                            "TVA_INVALID": "Le caractère TVA n'est pas valide"
+                        },
+                        "TVA": {
+                            "TEXT": "TVA",
+                            "PLACEHOLDER": "TVA",
+                            "REQUIRED": "TVA est obligatoire",
+                            "TRUE": "Vrai",
+                            "FALSE": "Faux"
+                        },
+                        "PHONE": {
+                            "TEXT": "Téléphone",
+                            "PLACEHOLDER": "Téléphone",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de téléphone doit comporter 8 chiffres"
+                        },
+                        "FAX": {
+                            "TEXT": "Fax",
+                            "PLACEHOLDER": "Nom de l'entreprise",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de fax doit comporter 8 chiffres"
+                        },
+                        "STAMP": {
+                            "TEXT": "Timbre",
+                            "PLACEHOLDER": "Timbre",
+                            "REQUIRED": "Timbre obligatoire",
+                            "TRUE": "Vrai",
+                            "FALSE": "Faux"
+                        },
+                        "NO_CLIENT": "Aucune Client a été selectionné"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer ?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "QUESTIONS": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Question",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Nombre de Questions"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NAME": "Intitulé question",
+                        "TYPE": "Type",
+                        "STATUS": "Etat",
+                        "RS": "Raison sociale",
+                        "SIRET": "SIRET",
+                        "ADDRESS": "Adresse",
+                        "EMAIL": "E-mail",
+                        "MATRICULE_FISCALE": "Matricule Fiscale",
+                        "PHONE": "Téléphone",
+                        "FAX": "Fax",
+                        "ACTIONS": "Actions"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter une question"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier une question"
+                        },
+                        "HISTORY_HEADER": {
+                            "TITLE": "Historique d'une question"
+                        }
+                    },
+                    "BODY": {
+                        "NAME": {
+                            "TEXT": "Intitulé question",
+                            "PLACEHOLDER": "Intitulé question",
+                            "REQUIRED": "Intitulé question obligatoire",
+                            "ALREADY_EXIST": "Le Intitulé Question existe déjà"
+                        },
+                        "TYPE": {
+                            "TEXT": "Type",
+                            "PLACEHOLDER": "Type",
+                            "REQUIRED": "Type obligatoire",
+                            "ALREADY_EXIST": "Le Type existe déjà"
+                        },
+                        "STATUS": {
+                            "TEXT": "Etat",
+                            "PLACEHOLDER": "Etat",
+                            "REQUIRED": "Etat obligatoire",
+                            "ALREADY_EXIST": "Le etat existe déjà"
+                        },
+                        "RS": {
+                            "TEXT": "Raison sociale",
+                            "PLACEHOLDER": "Raison sociale",
+                            "REQUIRED": "Raison sociale obligatoire",
+                            "ALREADY_EXIST": "raison sociale existe déjà"
+                        },
+                        "EMAIL": {
+                            "TEXT": "Email",
+                            "PLACEHOLDER": "Email",
+                            "REQUIRED": "Email obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Format invalide"
+                        },
+                        "ADDRESS": {
+                            "TEXT": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "REQUIRED": "Address obligatoire"
+                        },
+                        "MATRICULE_FISCALE": {
+                            "TEXT": "Matricule Fiscale",
+                            "PLACEHOLDER": "Matricule Fiscale",
+                            "REQUIRED": "Matricule Fiscale is required",
+                            "STATUS_INVALID": "Le caractère de statut n'est pas valide",
+                            "TVA_INVALID": "Le caractère TVA n'est pas valide"
+                        },
+                        "TVA": {
+                            "TEXT": "TVA",
+                            "PLACEHOLDER": "TVA",
+                            "REQUIRED": "TVA est obligatoire",
+                            "TRUE": "Vrai",
+                            "FALSE": "Faux"
+                        },
+                        "PHONE": {
+                            "TEXT": "Téléphone",
+                            "PLACEHOLDER": "Téléphone",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de téléphone doit comporter 8 chiffres"
+                        },
+                        "FAX": {
+                            "TEXT": "Fax",
+                            "PLACEHOLDER": "Nom de l'entreprise",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de fax doit comporter 8 chiffres"
+                        },
+                        "STAMP": {
+                            "TEXT": "Timbre",
+                            "PLACEHOLDER": "Timbre",
+                            "REQUIRED": "Timbre obligatoire",
+                            "TRUE": "Vrai",
+                            "FALSE": "Faux"
+                        },
+                        "NO_CLIENT": "Aucune Client a été selectionné"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer ?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "SECTIONS": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Sections",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Nombre de sections"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "TITRE": "Titre",
+                        "STATUS": "Etat",
+                        "ETAT": "Nom",
+                        "NB_QUESTION": "Nom",
+                        "RS": "Raison sociale",
+                        "SIRET": "SIRET",
+                        "ADDRESS": "Adresse",
+                        "EMAIL": "E-mail",
+                        "MATRICULE_FISCALE": "Matricule Fiscale",
+                        "PHONE": "Téléphone",
+                        "FAX": "Fax",
+                        "ACTIONS": "Actions"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter une section"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier une section"
+                        },
+                        "HISTORY_HEADER": {
+                            "TITLE": "Historique d'une section"
+                        }
+                    },
+                    "BODY": {
+                        "TITRE": {
+                            "TEXT": "Titre",
+                            "PLACEHOLDER": "Titre",
+                            "REQUIRED": "Titre obligatoire",
+                            "ALREADY_EXIST": "Le Titre existe déjà"
+                        },
+                        "STATUS": {
+                            "TEXT": "Etat",
+                            "PLACEHOLDER": "Etat",
+                            "REQUIRED": "Etat obligatoire",
+                            "ALREADY_EXIST": "Le etat existe déjà"
+                        },
+                        "NAME": {
+                            "TEXT": "Nom",
+                            "PLACEHOLDER": "Nom",
+                            "REQUIRED": "Nom obligatoire",
+                            "ALREADY_EXIST": "Le nom existe déjà"
+                        },
+                        "RS": {
+                            "TEXT": "Raison sociale",
+                            "PLACEHOLDER": "Raison sociale",
+                            "REQUIRED": "Raison sociale obligatoire",
+                            "ALREADY_EXIST": "raison sociale existe déjà"
+                        },
+                        "EMAIL": {
+                            "TEXT": "Email",
+                            "PLACEHOLDER": "Email",
+                            "REQUIRED": "Email obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Format invalide"
+                        },
+                        "ADDRESS": {
+                            "TEXT": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "REQUIRED": "Address obligatoire"
+                        },
+                        "MATRICULE_FISCALE": {
+                            "TEXT": "Matricule Fiscale",
+                            "PLACEHOLDER": "Matricule Fiscale",
+                            "REQUIRED": "Matricule Fiscale is required",
+                            "STATUS_INVALID": "Le caractère de statut n'est pas valide",
+                            "TVA_INVALID": "Le caractère TVA n'est pas valide"
+                        },
+                        "TVA": {
+                            "TEXT": "TVA",
+                            "PLACEHOLDER": "TVA",
+                            "REQUIRED": "TVA est obligatoire",
+                            "TRUE": "Vrai",
+                            "FALSE": "Faux"
+                        },
+                        "PHONE": {
+                            "TEXT": "Téléphone",
+                            "PLACEHOLDER": "Téléphone",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de téléphone doit comporter 8 chiffres"
+                        },
+                        "FAX": {
+                            "TEXT": "Fax",
+                            "PLACEHOLDER": "Nom de l'entreprise",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de fax doit comporter 8 chiffres"
+                        },
+                        "STAMP": {
+                            "TEXT": "Timbre",
+                            "PLACEHOLDER": "Timbre",
+                            "REQUIRED": "Timbre obligatoire",
+                            "TRUE": "Vrai",
+                            "FALSE": "Faux"
+                        },
+                        "NO_CLIENT": "Aucune Client a été selectionné"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer ?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "TACHES": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Taches",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Nombre de tache"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "TITRE": "Nom",
+                        "DESCRIPTION": "Description",
+
+                        "ACTIONS": "Actions"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter un Tache"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier un Tache"
+                        },
+                        "HISTORY_HEADER": {
+                            "TITLE": "Historique du Tache"
+                        }
+                    },
+                    "BODY": {
+                        "TITLE": {
+                            "TEXT": "Titre",
+                            "PLACEHOLDER": "Nom",
+                            "REQUIRED": "Titre obligatoire",
+                            "ALREADY_EXIST": "Titre existe déjà"
+                        },
+                        "DESCRIPTION": {
+                            "TEXT": "Description",
+                            "PLACEHOLDER": "Description",
+                            "REQUIRED": "Description obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Format invalide"
+                        },
+                        "ADDRESS": {
+                            "TEXT": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "REQUIRED": "Address obligatoire"
+                        },
+                        "MATRICULE_FISCALE": {
+                            "TEXT": "Matricule Fiscale",
+                            "PLACEHOLDER": "Matricule Fiscale",
+                            "REQUIRED": "Matricule Fiscale is required",
+                            "STATUS_INVALID": "Le caractère de statut n'est pas valide",
+                            "TVA_INVALID": "Le caractère TVA n'est pas valide"
+                        },
+                        "TVA": {
+                            "TEXT": "TVA",
+                            "PLACEHOLDER": "TVA",
+                            "REQUIRED": "TVA est obligatoire",
+                            "TRUE": "Vrai",
+                            "FALSE": "Faux"
+                        },
+                        "PHONE": {
+                            "TEXT": "Téléphone",
+                            "PLACEHOLDER": "Téléphone",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de téléphone doit comporter 8 chiffres"
+                        },
+                        "FAX": {
+                            "TEXT": "Fax",
+                            "PLACEHOLDER": "Nom de l'entreprise",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de fax doit comporter 8 chiffres"
+                        },
+                        "STAMP": {
+                            "TEXT": "Timbre",
+                            "PLACEHOLDER": "Timbre",
+                            "REQUIRED": "Timbre obligatoire",
+                            "TRUE": "Vrai",
+                            "FALSE": "Faux"
+                        },
+                        "NO_CLIENT": "Aucune Client a été selectionné"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer ?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "USERS": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Utilisateurs",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Nombre de Utilisateurs"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NAME": "Nom",
+                        "ADDRESS": "Adresse",
+                        "ROLE": "Role",
+                        "EMAIL": "E-mail",
+                        "PHONE": "Téléphone",
+                        "ACTIONS": "Actions"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter un utilisateur"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier un utilisateur"
+                        }
+                    },
+                    "BODY": {
+                        "NAME": {
+                            "TEXT": "Nom",
+                            "PLACEHOLDER": "Nom",
+                            "REQUIRED": "Nom obligatoire",
+                            "ALREADY_EXIST": "Le nom existe déjà"
+                        },
+                        "EMAIL": {
+                            "TEXT": "Email",
+                            "PLACEHOLDER": "Email",
+                            "REQUIRED": "Email obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Format invalide"
+                        },
+                        "ADDRESS": {
+                            "TEXT": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "REQUIRED": "Address obligatoire"
+                        },
+
+                        "PHONE": {
+                            "TEXT": "Téléphone",
+                            "PLACEHOLDER": "Téléphone",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de téléphone doit comporter 8 chiffres"
+                        },
+                        "ROLE": {
+                            "TEXT": "Role",
+                            "PLACEHOLDER": "Role de l'entreprise",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire"
+                        },
+
+                        "NO_CLIENT": "Aucune Client a été selectionné"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer ?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "CC": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Municipalites",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Nombre de Municipalite"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NAME": "Nom",
+                        "ADDRESS": "Adresse",
+                        "EMAIL": "E-mail",
+                        "PHONE": "Téléphone",
+                        "ACTIONS": "Actions"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter un devis"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier un devis"
+                        }
+                    },
+                    "BODY": {
+                        "NUMBER": {
+                            "TEXT": "Numéro",
+                            "PLACEHOLDER": "Numéro",
+                            "REQUIRED": "Numéro obligatoire",
+                            "ALREADY_EXIST": "Existe déjà"
+                        },
+                        "START_DATE": {
+                            "TEXT": "Date debut",
+                            "PLACEHOLDER": "Date",
+                            "REQUIRED": "Date fin"
+                        },
+                        "END_DATE": {
+                            "TEXT": "Date fin",
+                            "PLACEHOLDER": "Date fin",
+                            "REQUIRED": "Date fin obligatoire"
+                        },
+                        "CLIENT": {
+                            "TEXT": "Choisissez un Client",
+                            "DETAILS": "Details de client",
+                            "PLACEHOLDER": "Choisissez un Client",
+                            "NO_CLIENT_SELECTED": "Aucun client n'a été sélectionné"
+                        },
+                        "ARTICLE": {
+                            "TEXT": "Choisissez un Article",
+                            "PLACEHOLDER": "Article",
+                            "REQUIRED": "Article obligatoire"
+                        },
+                        "SIGNATURE": "Signature",
+                        "DISCOUNT": {
+                            "TITLE": "Remise Devis",
+                            "TEXT": "Remise",
+                            "PLACEHOLDER": " remise"
+                        },
+                        "TVA": {
+                            "TEXT": "TVA",
+                            "PLACEHOLDER": "TVA",
+                            "REQUIRED": "TVA obligatoire"
+                        },
+                        "STATUS": {
+                            "TEXT": "Statut",
+                            "PLACEHOLDER": "Statut",
+                            "REQUIRED": "Statut obligatoire"
+                        },
+                        "PDF_LANGUAGES": "Langue PDF",
+                        "LINES": {
+                            "CODE": {
+                                "TEXT": "Code",
+                                "PLACEHOLDER": "Code",
+                                "REQUIRED": "Code obligatoire",
+                                "ALREADY_EXIST": "Existe déjà"
+                            },
+                            "QUANTITY": {
+                                "TEXT": "Quantité",
+                                "PLACEHOLDER": "Quantité",
+                                "REQUIRED": "Quantité obligatoire"
+                            },
+                            "PRICE": {
+                                "TEXT": "Prix",
+                                "PLACEHOLDER": "Prix",
+                                "REQUIRED": "Prix obligatoire"
+                            },
+                            "TVA": {
+                                "TEXT": "TVA",
+                                "PLACEHOLDER": "TVA",
+                                "REQUIRED": "TVA obligatoire"
+                            },
+                            "DISCOUNT": {
+                                "TEXT": "Remise Article",
+                                "PLACEHOLDER": "Remise",
+                                "REQUIRED": "Remise Obligatoire"
+                            }
+                        },
+                        "TOTAL_HT": "Total HT",
+                        "TOTAL_TVA": "Total TVA",
+                        "TOTAL_TTC": "Total TTC",
+                        "DRAFT": "Brouillon ",
+                        "MAKE_AS_PAID": "Validé"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer ?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "MUNICIPALITY": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Municipalites",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Nombre de Municipalite"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NAME": "Nom",
+                        "ADDRESS": "Adresse",
+                        "EMAIL": "E-mail",
+                        "PHONE": "Téléphone",
+                        "ACTIONS": "Actions"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter un Municipalite"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier un Municipalite"
+                        }
+                    },
+                    "BODY": {
+                        "NAME": {
+                            "TEXT": "Nom",
+                            "PLACEHOLDER": "Nom",
+                            "REQUIRED": "Nom obligatoire",
+                            "ALREADY_EXIST": "Le nom existe déjà"
+                        },
+                        "EMAIL": {
+                            "TEXT": "Email",
+                            "PLACEHOLDER": "Email",
+                            "REQUIRED": "Email obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Format invalide"
+                        },
+                        "ADDRESS": {
+                            "TEXT": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "REQUIRED": "Address obligatoire"
+                        },
+
+                        "PHONE": {
+                            "TEXT": "Téléphone",
+                            "PLACEHOLDER": "Téléphone",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de téléphone doit comporter 8 chiffres"
+                        },
+
+                        "NO_CLIENT": "Aucune Client a été selectionné"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer ?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+            "ACTIVITY": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Activity",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Nombre de Activity"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NAME": "Nom",
+                        "ADDRESS": "Adresse",
+                        "EMAIL": "E-mail",
+                        "PHONE": "Téléphone",
+                        "ACTIONS": "Actions"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter une activité"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier une activité"
+                        }
+                    },
+                    "BODY": {
+                        "DATE": {
+                            "TEXT": "DATE",
+                            "PLACEHOLDER": "DATE",
+                            "REQUIRED": "DATE obligatoire"
+                        },
+                        "VALUE": {
+                            "TEXT": "Value",
+                            "PLACEHOLDER": "Value",
+                            "REQUIRED": "Value obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Value invalide"
+                        },
+                        "ADDRESS": {
+                            "TEXT": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "REQUIRED": "Address obligatoire"
+                        },
+
+                        "PHONE": {
+                            "TEXT": "Téléphone",
+                            "PLACEHOLDER": "Téléphone",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de téléphone doit comporter 8 chiffres"
+                        },
+
+                        "NO_CLIENT": "Aucune Client a été selectionné"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer ?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "CHAUFFEUR": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Chauffeur",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Numéro d'Chauffeur"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NOM": "Nom",
+                        "PHONE": "telephone",
+                        "EMAIL": "email",
+                        "ADRESSE": "adresse",
+                        "STATUS": "etat",
+                        "SS": "sous-traitant",
+                        "MUNICIPALITE": "municipalite",
+                        "ACTIONS": "Action"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter un Chauffeur"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier un Chauffeur"
+                        },
+                        "HISTORY_HEADER": {
+                            "TITLE": "Historique du Chauffeur"
+                        },
+                        "AFFECTATION_HEADER": {
+                            "TITLE": "Affecter un Chauffeur"
+                        }
+                    },
+                    "BODY": {
+                        "NOM": {
+                            "TEXT": "Nom",
+                            "PLACEHOLDER": "Nom",
+                            "REQUIRED": "Nom obligatoire"
+                        },
+                        "PHONE": {
+                            "TEXT": "Telephone",
+                            "PLACEHOLDER": "Telephone",
+                            "REQUIRED": "Telephone obligatoire"
+                        },
+                        "EMAIL": {
+                            "TEXT": "Email",
+                            "PLACEHOLDER": "Email",
+                            "REQUIRED": "Email obligatoire"
+                        },
+                        "ADDRESS": {
+                            "TEXT": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "REQUIRED": "Adresse est obligatoire"
+                        },
+                        "STATUS": {
+                            "TEXT": "Statut",
+                            "PLACEHOLDER": "Statut",
+                            "REQUIRED": "statut est obliagatoire"
+                        },
+                        "SS": {
+                            "TEXT": "Sous-traitant",
+                            "PLACEHOLDER": "Sous-traitant",
+                            "REQUIRED": "Sous-traitant est obliagatoire"
+                        }
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+            "COLLABORATEUR": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Collaborateur",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Numéro d'Collaborateur"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NOM": "Nom",
+                        "PRENOM": "Prenom ",
+                        "PHONE": "telephone",
+                        "EMAIL": "email",
+                        "ADRESSE": "adresse",
+                        "STATUS": "etat",
+                        "SS": "sous-traitant",
+                        "MUNICIPALITE": "municipalite",
+                        "ACTIONS": "Action"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter un Collaborateur"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier un Collaborateur"
+                        },
+                        "HISTORY_HEADER": {
+                            "TITLE": "Historique du Collaborateur"
+                        },
+                        "AFFECTATION_HEADER": {
+                            "TITLE": "Affecter un Collaborateur"
+                        },
+                        "DETAILS_HEADER": {
+                            "TITLE": "Collaborateur info"
+                        }
+                    },
+                    "BODY": {
+                        "NOM": {
+                            "TEXT": "Nom",
+                            "PLACEHOLDER": "Nom",
+                            "REQUIRED": "Nom obligatoire"
+                        },
+                        "PRENOM": {
+                            "TEXT": "Prenom",
+                            "PLACEHOLDER": "Prenom",
+                            "REQUIRED": "Prenom obligatoire"
+                        },
+                        "PHONE": {
+                            "TEXT": "Telephone",
+                            "PLACEHOLDER": "Telephone",
+                            "REQUIRED": "Telephone obligatoire"
+                        },
+                        "EMAIL": {
+                            "TEXT": "Email",
+                            "PLACEHOLDER": "Email",
+                            "REQUIRED": "Email obligatoire"
+                        },
+                        "ADDRESS": {
+                            "TEXT": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "REQUIRED": "Adresse est obligatoire"
+                        },
+                        "STATUS": {
+                            "TEXT": "Statut",
+                            "PLACEHOLDER": "Statut",
+                            "REQUIRED": "statut est obliagatoire"
+                        },
+                        "SS": {
+                            "TEXT": "Sous-traitant",
+                            "PLACEHOLDER": "Sous-traitant",
+                            "REQUIRED": "Sous-traitant est obliagatoire"
+                        }
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+            "MANAGER": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Manager",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Numéro d'Manager"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NOM": "Nom",
+                        "PRENOM": "Prenom ",
+                        "PHONE": "telephone",
+                        "EMAIL": "email",
+                        "ADRESSE": "adresse",
+                        "STATUS": "etat",
+                        "SS": "sous-traitant",
+                        "MUNICIPALITE": "municipalite",
+                        "ACTIONS": "Action"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter un Manager"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier un Manager"
+                        },
+                        "HISTORY_HEADER": {
+                            "TITLE": "Historique du Manager"
+                        },
+                        "AFFECTATION_HEADER": {
+                            "TITLE": "Affecter un Manager"
+                        }
+                    },
+                    "BODY": {
+                        "MANAGER-NOM": {
+                            "TEXT": "Nom de manager",
+                            "PLACEHOLDER": "Nom",
+                            "REQUIRED": "Nom obligatoire"
+                        },
+                        "NOM": {
+                            "TEXT": "Nom",
+                            "PLACEHOLDER": "Nom",
+                            "REQUIRED": "Nom obligatoire"
+                        },
+                        "PRENOM": {
+                            "TEXT": "Prenom",
+                            "PLACEHOLDER": "Prenom",
+                            "REQUIRED": "Prenom obligatoire"
+                        },
+                        "PHONE": {
+                            "TEXT": "Telephone",
+                            "PLACEHOLDER": "Telephone",
+                            "REQUIRED": "Telephone obligatoire"
+                        },
+                        "EMAIL": {
+                            "TEXT": "Email",
+                            "PLACEHOLDER": "Email",
+                            "REQUIRED": "Email obligatoire"
+                        },
+                        "ADDRESS": {
+                            "TEXT": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "REQUIRED": "Adresse est obligatoire"
+                        },
+                        "STATUS": {
+                            "TEXT": "Statut",
+                            "PLACEHOLDER": "Statut",
+                            "REQUIRED": "statut est obliagatoire"
+                        },
+                        "SS": {
+                            "TEXT": "Sous-traitant",
+                            "PLACEHOLDER": "Sous-traitant",
+                            "REQUIRED": "Sous-traitant est obliagatoire"
+                        }
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "CHAUFFEUR-CAMION": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "chauffeurs-camions",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter "
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Numéro d'chauffeurs-camions"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "DATE_DEBUT": "Date Debut",
+                        "DATE_FIN": "Date Fin",
+                        "CAMION": "Camion",
+                        "CHAUFFEUR": "Chauffeur",
+                        "ACTIONS": "Action"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter un chauffeurs-camions"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier un chauffeurs-camions"
+                        },
+                        "AFFECTATION_HEADER": {
+                            "TITLE": "Affecter une chauffeurs-camions"
+                        }
+                    },
+                    "BODY": {
+                        "DATE_DEBUT": {
+                            "TEXT": "Date Debut",
+                            "PLACEHOLDER": "Date Debut",
+                            "REQUIRED": "Date Debut obligatoire",
+                            "ALREADY_EXIST": "Existe déjà"
+                        },
+                        "DATE_FIN": {
+                            "TEXT": "Date Fin",
+                            "PLACEHOLDER": "Date Fin",
+                            "REQUIRED": "Date Fin obligatoire",
+                            "MAXLENGHT": "La description de l'article Ne doit pas dépasser 60 caractères"
+                        },
+                        "CAMION": {
+                            "TEXT": "Camion",
+                            "PLACEHOLDER": "Camion",
+                            "REQUIRED": "Camion obligatoire"
+                        },
+                        "CHAUFFEUR-CAMION": {
+                            "TEXT": "Chauffeur-Camion",
+                            "PLACEHOLDER": "Chauffeur Camion",
+                            "REQUIRED": "Chauffeur Camion obligatoire"
+                        },
+                        "CHAUFFEUR": {
+                            "TEXT": "Chauffeur",
+                            "PLACEHOLDER": "Chauffeur",
+                            "REQUIRED": "Chauffeur est obligatoire"
+                        },
+                        "STATUS": {
+                            "TEXT": "Statut",
+                            "PLACEHOLDER": "Statut",
+                            "REQUIRED": "statut est obliagatoire"
+                        }
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "CLIENT-TACHES": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "client-tache",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter "
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Numéro client-tache"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "DATE_DEBUT": "Date Debut",
+                        "DATE_FIN": "Date Fin",
+                        "CAMION": "Camion",
+                        "CHAUFFEUR": "Chauffeur",
+                        "ACTIONS": "Action"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter un client-tache"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier un client-tache"
+                        },
+                        "AFFECTATION_HEADER": {
+                            "TITLE": "Affecter une client-tache"
+                        }
+                    },
+                    "BODY": {
+                        "DATE_DEBUT": {
+                            "TEXT": "Date Debut",
+                            "PLACEHOLDER": "Date Debut",
+                            "REQUIRED": "Date Debut obligatoire",
+                            "ALREADY_EXIST": "Existe déjà"
+                        },
+                        "DATE_FIN": {
+                            "TEXT": "Date Fin",
+                            "PLACEHOLDER": "Date Fin",
+                            "REQUIRED": "Date Fin obligatoire",
+                            "MAXLENGHT": "La description de l'article Ne doit pas dépasser 60 caractères"
+                        },
+                        "CAMION": {
+                            "TEXT": "Camion",
+                            "PLACEHOLDER": "Camion",
+                            "REQUIRED": "Camion obligatoire"
+                        },
+                        "CHAUFFEUR-CAMION": {
+                            "TEXT": "Chauffeur-Camion",
+                            "PLACEHOLDER": "Chauffeur Camion",
+                            "REQUIRED": "Chauffeur Camion obligatoire"
+                        },
+                        "CHAUFFEUR": {
+                            "TEXT": "Chauffeur",
+                            "PLACEHOLDER": "Chauffeur",
+                            "REQUIRED": "Chauffeur est obligatoire"
+                        },
+                        "STATUS": {
+                            "TEXT": "Statut",
+                            "PLACEHOLDER": "Statut",
+                            "REQUIRED": "statut est obliagatoire"
+                        }
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "CLIENT": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Client",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Numéro d'Client"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NOM": "Nom",
+                        "PRENOM": "Prenom",
+                        "PHONE": "telephone",
+                        "EMAIL": "email",
+                        "ADRESSE": "adresse",
+                        "STATUS": "etat",
+                        "TYPE": "type",
+                        "ACTIONS": "Action"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter un Client"
+                        },
+
+                        "HISTORY_HEADER": {
+                            "TITLE": "Historique du client"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier un Client"
+                        }
+                    },
+                    "BODY": {
+                        "CODE": {
+                            "TEXT": "Code",
+                            "PLACEHOLDER": "Code",
+                            "REQUIRED": "Code obligatoire",
+                            "ALREADY_EXIST": "Existe déjà"
+                        },
+                        "ARTICLE": {
+                            "TEXT": "Article",
+                            "PLACEHOLDER": "Article",
+                            "REQUIRED": "Article obligatoire",
+                            "MAXLENGHT": "La description de l'article Ne doit pas dépasser 60 caractères"
+                        },
+                        "PRICE": {
+                            "TEXT": "Prix",
+                            "PLACEHOLDER": "Prix",
+                            "REQUIRED": "Prix obligatoire"
+                        },
+                        "TVA": {
+                            "TEXT": "TVA",
+                            "PLACEHOLDER": "TVA",
+                            "REQUIRED": "TVA est obligatoire"
+                        },
+                        "STATUS": {
+                            "TEXT": "Statut",
+                            "PLACEHOLDER": "Statut",
+                            "REQUIRED": "statut est obliagatoire"
+                        }
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "NOTIFICATION": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Notification",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Numéro de Notification"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NUMBER": "N°Devis",
+                        "DATE": "Date",
+                        "VALIDITY": "Validité",
+                        "CLIENT": "Client",
+                        "TOTAL_HT": "Total HT",
+                        "TOTAL_TTC": "Total TTC",
+                        "STATUS": "Statut",
+                        "ACTIONS": "Actions"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter un Notification"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier un devis"
+                        }
+                    },
+                    "BODY": {
+                        "NUMBER": {
+                            "TEXT": "Numéro",
+                            "PLACEHOLDER": "Numéro",
+                            "REQUIRED": "Numéro obligatoire",
+                            "ALREADY_EXIST": "Existe déjà"
+                        },
+                        "DATE": {
+                            "TEXT": "Date",
+                            "PLACEHOLDER": "Date",
+                            "REQUIRED": "Date obligatoire"
+                        },
+                        "VALIDITY_DATE": {
+                            "TEXT": "Date de validité",
+                            "PLACEHOLDER": "Date de validité",
+                            "REQUIRED": "Date de validité obligatoire"
+                        },
+                        "CLIENT": {
+                            "TEXT": "Choisissez un Client",
+                            "DETAILS": "Details de client",
+                            "PLACEHOLDER": "Choisissez un Client",
+                            "NO_CLIENT_SELECTED": "Aucun client n'a été sélectionné"
+                        },
+                        "ARTICLE": {
+                            "TEXT": "Choisissez un Article",
+                            "PLACEHOLDER": "Article",
+                            "REQUIRED": "Article obligatoire"
+                        },
+                        "SIGNATURE": "Signature",
+                        "DISCOUNT": {
+                            "TITLE": "Remise Devis",
+                            "TEXT": "Remise",
+                            "PLACEHOLDER": " remise"
+                        },
+                        "TVA": {
+                            "TEXT": "TVA",
+                            "PLACEHOLDER": "TVA",
+                            "REQUIRED": "TVA obligatoire"
+                        },
+                        "STATUS": {
+                            "TEXT": "Statut",
+                            "PLACEHOLDER": "Statut",
+                            "REQUIRED": "Statut obligatoire"
+                        },
+                        "PDF_LANGUAGES": "Langue PDF",
+                        "LINES": {
+                            "CODE": {
+                                "TEXT": "Code",
+                                "PLACEHOLDER": "Code",
+                                "REQUIRED": "Code obligatoire",
+                                "ALREADY_EXIST": "Existe déjà"
+                            },
+                            "QUANTITY": {
+                                "TEXT": "Quantité",
+                                "PLACEHOLDER": "Quantité",
+                                "REQUIRED": "Quantité obligatoire"
+                            },
+                            "PRICE": {
+                                "TEXT": "Prix",
+                                "PLACEHOLDER": "Prix",
+                                "REQUIRED": "Prix obligatoire"
+                            },
+                            "TVA": {
+                                "TEXT": "TVA",
+                                "PLACEHOLDER": "TVA",
+                                "REQUIRED": "TVA obligatoire"
+                            },
+                            "DISCOUNT": {
+                                "TEXT": "Remise Article",
+                                "PLACEHOLDER": "Remise",
+                                "REQUIRED": "Remise Obligatoire"
+                            }
+                        },
+                        "TOTAL_HT": "Total HT",
+                        "TOTAL_TVA": "Total TVA",
+                        "TOTAL_TTC": "Total TTC",
+                        "DRAFT": "Brouillon ",
+                        "MAKE_AS_PAID": "Validé"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer ?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+            "PRESTATION": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Prestations",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "N°Prestation"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NUMBER": "N°Prestation",
+                        "DATE": "Date",
+                        "ETAT": "Etat",
+                        "PRICE": "Price",
+                        "CLIENT": "Client",
+                        "CAMION": "Camion",
+                        "CHAUFFEUR": "Chauffeur",
+                        "MUNICIPALITY": "Municipalité",
+                        "SS": "Sous-traitant",
+                        "LOCALTION": "Location",
+                        "ZONE": "Zone",
+                        "ACTIONS": "Actions"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter une Facture"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier une Facture"
+                        },
+                        "HISTORY_HEADER": {
+                            "TITLE": "Historique du Prestation"
+                        },
+                        "AFFECTATION_HEADER": {
+                            "TITLE": "Affecter une Prestation"
+                        }
+                    },
+                    "BODY": {
+                        "NUMBER": {
+                            "TEXT": "Numéro",
+                            "PLACEHOLDER": "Numéro",
+                            "REQUIRED": "Number obligatoire",
+                            "ALREADY_EXIST": "Existe déjà"
+                        },
+                        "DATE": {
+                            "TEXT": "Date",
+                            "PLACEHOLDER": "Date",
+                            "REQUIRED": "Date obligatoire"
+                        },
+                        "CLIENT": {
+                            "TEXT": "Choisissez un Client",
+                            "DETAILS": "Client Details",
+                            "PLACEHOLDER": "Choisissez un Client",
+                            "NO_CLIENT_SELECTED": "Aucun client n'a été sélectionné"
+                        },
+                        "ARTICLE": {
+                            "TEXT": "Choisissez un Article",
+                            "PLACEHOLDER": "Article",
+                            "REQUIRED": "Article obligatoire"
+                        },
+                        "SIGNATURE": "Signature",
+                        "DISCOUNT": {
+                            "TITLE": "Remise Facture",
+                            "TEXT": "Remise",
+                            "PLACEHOLDER": "Total remise"
+                        },
+                        "PRICE": {
+                            "TEXT": "Price",
+                            "PLACEHOLDER": "Price",
+                            "REQUIRED": "Price obligatoire"
+                        },
+                        "STATUS": {
+                            "TEXT": "Statut",
+                            "PLACEHOLDER": "Statut",
+                            "REQUIRED": "statut est obliagatoire"
+                        },
+                        "PDF_LANGUAGES": "Langue PDF",
+                        "LINES": {
+                            "CODE": {
+                                "TEXT": "Code",
+                                "PLACEHOLDER": "Code",
+                                "REQUIRED": "Code obligatoire",
+                                "ALREADY_EXIST": "Existe déjà"
+                            },
+                            "QUANTITY": {
+                                "TEXT": "Quantité",
+                                "PLACEHOLDER": "Quantité",
+                                "REQUIRED": "Qunatity obligatoire"
+                            },
+                            "PRICE": {
+                                "TEXT": "Prix",
+                                "PLACEHOLDER": "Prix",
+                                "REQUIRED": "Prix obligatoire"
+                            },
+                            "TVA": {
+                                "TEXT": "TVA",
+                                "PLACEHOLDER": "TVA",
+                                "REQUIRED": "TVA obligatoire"
+                            },
+                            "DISCOUNT": {
+                                "TEXT": "Remise Article",
+                                "PLACEHOLDER": "Remise",
+                                "REQUIRED": "Remise Obligatoire"
+                            }
+                        },
+                        "TOTAL_HT": "Total HT",
+                        "TOTAL_TVA": "Total TVA",
+                        "TOTAL_TTC": "Total TTC",
+                        "STAMP": "Timbre",
+                        "DRAFT": "Brouillon ",
+                        "MAKE_AS_PAID": "Validé"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer ?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "CAMIONS": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Camions",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "N°Camion"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "MARQUE": "Marque",
+                        "IMMATRICULATION": "Immatriculation",
+                        "ETAT": "Etat",
+                        "SS": "sous-traitant",
+                        "ACTIONS": "Actions"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter un Camion"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier un Camion"
+                        },
+                        "HISTORY_HEADER": {
+                            "TITLE": "Historique du Camion"
+                        },
+                        "AFFECTATION_HEADER": {
+                            "TITLE": "Affecter un Chauffeur"
+                        }
+                    },
+                    "BODY": {
+                        "MARQUE": {
+                            "TEXT": "Marque",
+                            "PLACEHOLDER": "Marque",
+                            "REQUIRED": "Marque obligatoire",
+                            "ALREADY_EXIST": "Existe déjà"
+                        },
+                        "IMMATRICULATION": {
+                            "TEXT": "Immatriculation",
+                            "PLACEHOLDER": "Immatriculation",
+                            "REQUIRED": "Immatriculation obligatoire"
+                        },
+                        "ETAT": {
+                            "TEXT": "Choisissez un Etat",
+                            "DETAILS": "Etat Details",
+                            "PLACEHOLDER": "Choisissez un Etat",
+                            "NO_ETAT_SELECTED": "Aucun Etat n'a été sélectionné"
+                        },
+                        "ARTICLE": {
+                            "TEXT": "Choisissez un Article",
+                            "PLACEHOLDER": "Article",
+                            "REQUIRED": "Article obligatoire"
+                        },
+                        "SIGNATURE": "Signature",
+                        "DISCOUNT": {
+                            "TITLE": "Remise Facture",
+                            "TEXT": "Remise",
+                            "PLACEHOLDER": "Total remise"
+                        },
+                        "TVA": {
+                            "TEXT": "TVA",
+                            "PLACEHOLDER": "TVA",
+                            "REQUIRED": "TVA obligatoire"
+                        },
+                        "STATUS": {
+                            "TEXT": "Statut",
+                            "PLACEHOLDER": "Statut",
+                            "REQUIRED": "statut est obliagatoire"
+                        },
+                        "PDF_LANGUAGES": "Langue PDF",
+                        "LINES": {
+                            "CODE": {
+                                "TEXT": "Code",
+                                "PLACEHOLDER": "Code",
+                                "REQUIRED": "Code obligatoire",
+                                "ALREADY_EXIST": "Existe déjà"
+                            },
+                            "QUANTITY": {
+                                "TEXT": "Quantité",
+                                "PLACEHOLDER": "Quantité",
+                                "REQUIRED": "Qunatity obligatoire"
+                            },
+                            "PRICE": {
+                                "TEXT": "Prix",
+                                "PLACEHOLDER": "Prix",
+                                "REQUIRED": "Prix obligatoire"
+                            },
+                            "TVA": {
+                                "TEXT": "TVA",
+                                "PLACEHOLDER": "TVA",
+                                "REQUIRED": "TVA obligatoire"
+                            },
+                            "DISCOUNT": {
+                                "TEXT": "Remise Article",
+                                "PLACEHOLDER": "Remise",
+                                "REQUIRED": "Remise Obligatoire"
+                            }
+                        },
+                        "TOTAL_HT": "Total HT",
+                        "TOTAL_TVA": "Total TVA",
+                        "TOTAL_TTC": "Total TTC",
+                        "STAMP": "Timbre",
+                        "DRAFT": "Brouillon ",
+                        "MAKE_AS_PAID": "Validé"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer ?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "SS": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Sous-traitant",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Sous-traitant"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NOM": "Nom",
+                        "TELEPHONE": "Telephone",
+                        "EMAIL": "EMail",
+                        "ADRESSE": "Adresse",
+                        "ETAT": "Etat",
+                        "MUNICIPALITE": "Municipalite",
+                        "ACTIONS": "Actions"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    }
+                },
+                "POPUP": {
+                    "HEADER": {
+                        "CREATION_HEADER": {
+                            "TITLE": "Ajouter une Sous-traitant"
+                        },
+                        "EDITION_HEADER": {
+                            "TITLE": "Modifier une Sous-traitant"
+                        },
+                        "HISTORY_HEADER": {
+                            "TITLE": "Historique du Sous-traitant"
+                        }
+                    },
+                    "BODY": {
+                        "NOM": {
+                            "TEXT": "Marque",
+                            "PLACEHOLDER": "Marque",
+                            "REQUIRED": "Marque obligatoire",
+                            "ALREADY_EXIST": "Existe déjà"
+                        },
+                        "TELEPHONE": {
+                            "TEXT": "Immatriculation",
+                            "PLACEHOLDER": "Immatriculation",
+                            "REQUIRED": "Immatriculation obligatoire"
+                        },
+                        "EMAIL": {
+                            "TEXT": "Choisissez un Etat",
+                            "DETAILS": "Etat Details",
+                            "PLACEHOLDER": "Choisissez un Etat",
+                            "NO_ETAT_SELECTED": "Aucun Etat n'a été sélectionné"
+                        },
+                        "ADRESSE": {
+                            "TEXT": "Choisissez un Article",
+                            "PLACEHOLDER": "Article",
+                            "REQUIRED": "Article obligatoire"
+                        },
+                        "ETAT": "Signature",
+                        "MUNICIPALITY": {
+                            "TITLE": "Municipalite",
+                            "TEXT": "Municipalite",
+                            "PLACEHOLDER": "Municipalite"
+                        },
+                        "TVA": {
+                            "TEXT": "TVA",
+                            "PLACEHOLDER": "TVA",
+                            "REQUIRED": "TVA obligatoire"
+                        },
+                        "STATUS": {
+                            "TEXT": "Statut",
+                            "PLACEHOLDER": "Statut",
+                            "REQUIRED": "statut est obliagatoire"
+                        },
+                        "PDF_LANGUAGES": "Langue PDF",
+                        "LINES": {
+                            "CODE": {
+                                "TEXT": "Code",
+                                "PLACEHOLDER": "Code",
+                                "REQUIRED": "Code obligatoire",
+                                "ALREADY_EXIST": "Existe déjà"
+                            },
+                            "QUANTITY": {
+                                "TEXT": "Quantité",
+                                "PLACEHOLDER": "Quantité",
+                                "REQUIRED": "Qunatity obligatoire"
+                            },
+                            "PRICE": {
+                                "TEXT": "Prix",
+                                "PLACEHOLDER": "Prix",
+                                "REQUIRED": "Prix obligatoire"
+                            },
+                            "TVA": {
+                                "TEXT": "TVA",
+                                "PLACEHOLDER": "TVA",
+                                "REQUIRED": "TVA obligatoire"
+                            },
+                            "DISCOUNT": {
+                                "TEXT": "Remise Article",
+                                "PLACEHOLDER": "Remise",
+                                "REQUIRED": "Remise Obligatoire"
+                            }
+                        },
+                        "TOTAL_HT": "Total HT",
+                        "TOTAL_TVA": "Total TVA",
+                        "TOTAL_TTC": "Total TTC",
+                        "STAMP": "Timbre",
+                        "DRAFT": "Brouillon ",
+                        "MAKE_AS_PAID": "Validé"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DELETION_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Retirer"
+                    },
+                    "BODY": {
+                        "TEXT": "Etes-vous sûr que vous voulez supprimer ?"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "DETAILS_POPUP": {
+                    "HEADER": {
+                        "TEXT": "Détails"
+                    }
+                }
+            },
+
+            "ACCOUNT": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Compte"
+                    },
+                    "BODY": {
+                        "NAME": "Nom",
+                        "EMAIL": "E-mail",
+                        "PHONE": "Telephone",
+                        "ADRESSE": "Adresse",
+                        "TYPE": "Etat"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                }
+            },
+            "CHANGE_PASSWORD": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Changer le mot de passe"
+                    },
+                    "BODY": {
+                        "CURRENT_PASSWORD": "Mot de passe actuel",
+                        "NEW_PASSWORD": "Nouveau mot de passe",
+                        "CONFIRM_PASSWORD": "Confirmez le mot de passe",
+                        "SHOW_PASSWORD": "Afficher le mot de passe",
+                        "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                        "MATCHING_PASSWORDS_MESSAGE": "Le mot de passe ne correspond pas. Veuillez réessayer"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                }
+            },
+            "DISPLAY": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Affichage"
+                    },
+                    "BODY": {
+                        "LANGUAGES": "langues",
+                        "THEMES": "Thèmes"
+                    }
+                }
+            },
+            "COMPANY": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Entreprise"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "NAME": "Nom",
+                        "ADDRESS": "Adresse",
+                        "MATRICULE_FISCALE": "Matricule Fiscale",
+                        "PHONE": "Téléphone",
+                        "FAX": "Fax",
+                        "RIB": "Rib",
+                        "ACTIONS": "Actions"
+                    },
+                    "TD": {
+                        "SEARCH": {
+                            "PLACEHOLDER": "Recherche"
+                        }
+                    },
+                    "BODY": {
+                        "NAME": {
+                            "TEXT": "Nom",
+                            "PLACEHOLDER": "Nom",
+                            "REQUIRED": "Nom obligatoire",
+                            "ALREADY_EXIST": "Le nom existe déjà"
+                        },
+                        "ADDRESS": {
+                            "TEXT": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "REQUIRED": "Adresse existe déjà"
+                        },
+                        "MATRICULE_FISCALE": {
+                            "TEXT": "Matricule Fiscale",
+                            "PLACEHOLDER": "Matricule Fiscale",
+                            "REQUIRED": "Matricule Fiscale obligatoire",
+                            "STATUS_INVALID": "Le caractère de statut n'est pas valide",
+                            "TVA_INVALID": "Le caractère TVA n'est pas valide"
+                        },
+                        "PHONE": {
+                            "TEXT": "Téléphone",
+                            "PLACEHOLDER": "Téléphone",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de téléphone doit comporter 8 chiffres"
+                        },
+                        "FAX": {
+                            "TEXT": "Fax",
+                            "PLACEHOLDER": "Nom de l'entreprise",
+                            "REQUIRED_FIELD_MESSAGE": "Champ obligatoire",
+                            "INVALID_FORMAT_MESSAGE": "Le numéro de fax doit comporter 8 chiffres"
+                        },
+                        "RIB": {
+                            "TEXT": "RIB",
+                            "PLACEHOLDER": "RIB",
+                            "REQUIRED": "RIB obligatoire"
+                        }
+                    }
+                }
+            },
+            "CONTACT": {
+                "CARD": {
+                    "TITLE": "Contacter-Nous",
+                    "BODY": {
+                        "TITLE": "Titre",
+                        "MESSAGE": "Message"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "SEND": "Envoyer",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                }
+            },
+            "TVA": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "TVA",
+                        "BUTTONS": {
+                            "ADD_BTN": "Ajouter TVA"
+                        }
+                    },
+                    "FOOTER": {
+                        "TEXT": "Numéro de la TVA"
+                    }
+                },
+                "TABLE": {
+                    "TH": {
+                        "TVA": "TVA",
+                        "ACTIONS": "Actions"
+                    },
+                    "BODY": {
+                        "TVA": {
+                            "TEXT": "TVA",
+                            "PLACEHOLDER": "TVA",
+                            "REQUIRED": "TVA obligatoire",
+                            "INVALID": "La TVA doit être comprise entre 0 et 99"
+                        }
+                    }
+                }
+            },
+            "PREFERENCES": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Préférences"
+                    },
+                    "BODY": {
+                        "DIGITS_NUMBER": {
+                            "TEXT": "Nombre de chiffres du prix",
+                            "REQUIRED": "Nombre de chiffres du prix obligatoire",
+                            "MAX": "Maximum de chiffres "
+                        },
+                        "QUANTITY_NUMBER": {
+                            "TEXT": "Nombre de chiffres de quantité",
+                            "REQUIRED": "Nombre de chiffres de quantité obligatoire",
+                            "MAX": "Maximum de chiffres "
+                        },
+                        "STAMP": {
+                            "TEXT": "Timbre",
+                            "PLACEHOLDER": "Timbre",
+                            "REQUIRED": "Timbre obligatoire"
+                        },
+                        "FOOTER": {
+                            "TEXT": "Bas de page",
+                            "PLACEHOLDER": "Bas de page",
+                            "REQUIRED": "Bas de page obligatoire"
+                        },
+                        "DISCOUNT": {
+                            "TEXT": "Remise",
+                            "PLACEHOLDER": "Remise"
+                        },
+                        "EDIT_ITEM": {
+                            "TEXT": "Modifier l'élément",
+                            "PLACEHOLDER": "Modifier l'élément"
+                        }
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Valider",
+                            "CANCEL": "Annuler"
+                        }
+                    }
+                }
+            },
+            "DASHBOARD": {
+                "SALES": {
+                    "HEADER": {
+                        "TITLE": "Ventes"
+                    },
+                    "BODY": {
+                        "ARTICLE": "Article",
+                        "INVOICE": "Quantité",
+                        "TOTAL": "Total"
+                    }
+                },
+                "ARTICLES": {
+                    "HEADER": {
+                        "TITLE": "Article"
+                    },
+                    "BODY": {
+                        "ARTICLE": "Article",
+                        "QUANTITY": "Quantité",
+                        "PRICE": "Prix",
+                        "TOTAL": "Total"
+                    }
+                },
+                "CLIENTS": {
+                    "HEADER": {
+                        "TITLE": "Clients"
+                    },
+                    "BODY": {
+                        "NAME": "Nom",
+                        "QUANTITY": "Quantité",
+                        "INVOICE": "Facture",
+                        "TOTAL_HT": "Total HT",
+                        "TOTAL_TTC": "Total TTC"
+                    }
+                },
+                "01": "Janvier",
+                "02": "Février",
+                "03": "Mars",
+                "04": "Avril",
+                "05": "Mai",
+                "06": "Juin",
+                "07": "Juillet",
+                "08": "Août",
+                "09": "Septembre",
+                "10": "Octobre",
+                "11": "Novembre",
+                "12": "Décembre",
+                "PICK_DATES": "Veuillez choisir des dates",
+                "ENTER_DATES": "Saisissez une plage de dates"
+            },
+            "RESET_PASSWORD": {
+                "CARD": {
+                    "HEADER": {
+                        "TITLE": "Réinitialiser le mot de passe"
+                    },
+                    "BODY": {
+                        "EMAIL": "E-mail"
+                    },
+                    "FOOTER": {
+                        "BUTTONS": {
+                            "VALIDATE": "Réinitialiser le mot de passe",
+                            "BACK": "Retour"
+                        }
+                    }
+                }
+            },
+            "OTHERS": {
+                "OR": "ou"
+            }
+        },
+        "SUCCESS": {
+            "SUBMIT": { "TEXT": "Soumettre avec succès " }
+        }
+    }
+}

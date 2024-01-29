@@ -1,0 +1,43 @@
+/* @use "node_modules/@angular/material" as mat;
+
+@import "../../../../../styles-variables.scss";
+
+@mixin app-error-component-theme($theme) {
+  $accent: map-get($theme, accent);
+  $warn: map-get($theme, warn);
+
+  .error {
+    color: green;
+    //    color: mat.get-color-from-palette($warn, default-contrast);
+    //  background-color:'black';
+  }
+
+  .information {
+    color: mat.get-color-from-palette($accent, default-contrast);
+    background-color: mat.get-color-from-palette($accent);
+  }
+
+  .success {
+    color: mat.get-color-from-palette($success-colors, default-contrast);
+    background-color: mat.get-color-from-palette($success-colors);
+  }
+
+  .warning {
+    color: mat.get-color-from-palette($warning-colors, default-contrast);
+    background-color: mat.get-color-from-palette($warning-colors);
+  }
+}
+
+.main-heading {
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+
+.item {
+  margin: 10px 0 10px 0;
+
+  p {
+    padding: 12px 0 0 20px;
+  }
+}
+ */

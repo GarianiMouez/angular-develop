@@ -1,0 +1,27 @@
+<!-- <div class="toolbar"  [style.position]="'inherit'"> -->
+<mat-toolbar class="mat-elevation-z1" role="heading" style="background-color: #fff">
+    <button class="float-end" mat-icon-button (click)="toggleSideNav()">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <div *ngIf="!sidenav?.opened" style="transition: visibility 5s, opacity 5.5s linear" class="header">
+        &nbsp; &nbsp;
+
+        <img
+            class="mt-2"
+            src="./../../../assets/img/brand/mrc-app-logo.png"
+            width="5.5%"
+            height="2%"            style="background-size: cover !important"
+            alt=""
+        />
+    </div>
+    <div class="ms-auto">
+        &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <span>
+            <header-user-profile
+                 [initializeValues]="{email : 'MRC-SURVEY@MRC-SURVEY.CLOUD'}"
+            ></header-user-profile>
+        </span>
+    </div>
+</mat-toolbar>
+<!-- </div> -->

@@ -1,0 +1,86 @@
+<mat-card class="mat-elevation-z0">
+    <!-- add form -->
+    <form *ngIf="!!form" [formGroup]="form" class="manager-form">
+        <mat-card-content>
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <br class="" />
+                    <mat-form-field style="width: 100%" class="border-black" appearance="outline">
+                        <mat-icon matPrefix color="primary"> </mat-icon>
+                        <mat-label class="text-center">
+                            {{ 'APP.BODY.QUESTIONS.TABLE.TH.NAME' | translate }}</mat-label>
+                        <input #firstname class="text-center" matColumnDef="title" matInput
+                            [formControl]="form.controls.name" />
+
+                        <mat-error *ngIf="form.controls.name.errors?.required">
+                            {{ 'APP.BODY.QUESTIONS.TABLE.TH.NAME' | translate }}</mat-error>
+                    </mat-form-field>
+                </div>
+
+                <br />
+            </div>
+
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <mat-form-field class="text-center" style="width: 100%" appearance="outline">
+                        <mat-select [value]="form.get('type').value" formControlName="type" placeholder="type">
+                            <mat-option class="text-center" *ngFor="let type of question_type" [value]="type">
+                                {{ type }}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+
+            <div class="row" *ngIf="!!initialValuesProps?.id">
+                <br />
+                <div class="row">
+                    <div class="col-md-10 offset-md-1 d-flex justify-content-start text-secondary">
+                        <label>{{ 'Status' }} </label>
+                    </div>
+                </div>
+
+                <mat-radio-group class="text-center" [value]="initialValuesProps?.etat"
+                    [formControl]="form.controls.etat">
+                    <div class="row ml-1 mr-1">
+                        <div class="col-md-2 offset-md-4 d-flex justify-content-start text-center">
+                            <mat-radio-button color="primary" [value]="'Desactivée'">
+                                &nbsp; &nbsp;
+                                <span class="pl-5">
+                                    {{ 'Desacitvée' }}
+                                </span>
+                            </mat-radio-button>
+                        </div>
+                        <div class="col-md-2 d-flex justify-content-start">
+                            <mat-radio-button [value]="'Activée'" color="primary">
+                                &nbsp; &nbsp;
+                                {{ 'Activée' }}
+                            </mat-radio-button>
+                        </div>
+                    </div>
+                    <br />
+                </mat-radio-group>
+            </div>
+
+            <!--         <br /> -->
+        </mat-card-content>
+    </form>
+
+    <br />
+
+    <mat-divider></mat-divider>
+    <br />
+    <mat-card-footer class="">
+        
+        <mat-card-actions>
+            <button mat-raised-button>
+                <mat-icon class="cancel">clear</mat-icon>
+                {{ 'APP.BODY.CAMIONS.POPUP.FOOTER.BUTTONS.CANCEL' | translate }}
+            </button>
+            <button mat-raised-button formPage (click)="save()">
+                <mat-icon class="success">check</mat-icon>
+                {{ 'APP.BODY.CAMIONS.POPUP.FOOTER.BUTTONS.VALIDATE' | translate }}
+            </button>
+        </mat-card-actions>
+    </mat-card-footer>
+</mat-card>

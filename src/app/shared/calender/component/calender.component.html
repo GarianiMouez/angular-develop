@@ -1,0 +1,120 @@
+<mat-card>
+    <mat-card-title class="">
+        <div class="row">
+            <div class="col-md-1 col-xs-1 col-sm-1">
+                <div class="btn-group">
+                    <button (click)="menuClicked()" mat-icon-button style="width: unset !important">
+                        <mat-icon *ngIf="!show_calender_form" style="width: none !important">menu</mat-icon>
+                        <mat-icon *ngIf="show_calender_form" style="width: none !important">close</mat-icon>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-9 col-sm-9 col-xs-9 text-center">
+                <h5>{{ viewDate | calendarDate : view + 'ViewTitle' : locale }}</h5>
+            </div>
+            <!--     <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="button-row">
+                    <button
+                        color="text-dark"
+                        mat-stroked-button
+                        (click)="setView(CalendarView.Month)"
+                        [class.active]="view === CalendarView.Month"
+                    >
+                        Mois
+                    </button>
+                    <button
+                        [disabled]="true"
+                        class="text-darkd"
+                        mat-stroked-button
+                        (click)="setView(CalendarView.Week)"
+                        [class.active]="false"
+                    >
+                        Semaine
+                    </button>
+
+                    <button
+                        [disabled]="true"
+                        class="text-darkd"
+                        mat-stroked-button
+                        (click)="setView(CalendarView.Day)"
+                        [class.active]="false"
+                    >
+                        Jour
+                    </button>
+                </div>
+            </div> -->
+
+            <div class="col-md-1 col-xs-1 col-sm-1">
+                <div class="btn-group">
+                    <button
+                        mwlCalendarPreviousView
+                        [view]="view"
+                        [(viewDate)]="viewDate"
+                        (viewDateChange)="closeOpenMonthViewDay()"
+                        style="background-color: #717171; color: rgb(255, 255, 255); font-size: 16px"
+                        mat-icon-button
+                    >
+                        <mat-icon>keyboard_arrow_left</mat-icon>
+                    </button>
+
+                    <button
+                        style="color: rgb(0, 0, 0); font-size: 16px"
+                        mwlCalendarNextView
+                        mwlCalendarToday
+                        [(viewDate)]="viewDate"
+                        mat-icon-button
+                        class=""
+                    >
+                        <mat-icon>today</mat-icon>
+                    </button>
+
+                    <button
+                        mwlCalendarNextView
+                        [view]="view"
+                        [(viewDate)]="viewDate"
+                        (viewDateChange)="closeOpenMonthViewDay()"
+                        style="background-color: #284a24; color: white; font-size: 16px"
+                        mat-icon-button
+                    >
+                        <mat-icon>keyboard_arrow_right</mat-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </mat-card-title>
+    <br />
+    <!--   <mat-divider></mat-divider>
+    <br /> -->
+    <div [ngSwitch]="view" class="row">
+        <div class="mb-5" [ngClass]="show_calender_form ? 'col-md-3' : ''" [hidden]="!show_calender_form">
+            <br />
+            <ng-container *ngTemplateOutlet="formTemplate; context: { data: data, show_calender_form }">
+                <button mat-icon-button class="" aria-label="Close" (click)="modalEditHide()">
+                    <mat-icon>cancel</mat-icon>
+                </button>
+            </ng-container>
+
+<!--             <div class="" style="position: absolute; bottom: 0; left: 0; right: 0">s</div>
+ -->            <!--
+            <button mat-icon-button class="" aria-label="Close" (click)="modalEditHide()">
+                <mat-icon>cancel</mat-icon>
+            </button> -->
+        </div>
+        <div [ngClass]="show_calender_form ? 'col-md-9' : 'col-md-12'">
+            <mwl-calendar-month-view
+                *ngSwitchCase="CalendarView.Month"
+                (beforeViewRender)="applyDateSelectionPolicy($event)"
+                [viewDate]="viewDate"
+                [events]="events"
+                [locale]="locale"
+                [refresh]="refresh"
+                [activeDayIsOpen]="activeDayIsOpen"
+                (dayClicked)="dayClicked($event.day)"
+                (eventTimesChanged)="eventTimesChanged($event)"
+            >
+            </mwl-calendar-month-view>
+        </div>
+    </div>
+    <br />
+</mat-card>

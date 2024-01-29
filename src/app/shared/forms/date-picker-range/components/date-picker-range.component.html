@@ -1,0 +1,30 @@
+<div class="" *ngIf="form">
+    <form [formGroup]="form" class="bg-dark">
+        <div class="example-small-bdoxd mat-elevation-z0 bg-dark">
+            <mat-form-field
+                width="100%"
+                appearance="outline"
+                style="background-color: rgb(255, 255, 255); margin: 0px; padding: 0px"
+            >
+                <mat-label> {{ 'APP.BODY.DASHBOARD.ENTER_DATES' | translate }}</mat-label>
+                <mat-date-range-input [rangePicker]="date_picker" class="d-flex justify-content-center">
+                    <input
+                        class=""
+                        matStartDate
+                        placeholder="Start date"
+                        [formControl]="form.controls.start_date"
+                    />
+                    <input
+                        matEndDate
+                        (dateChange)="onSendData()"
+                        placeholder="End date"
+                        [formControl]="form.controls.end_date"
+                        class=""
+                    />
+                </mat-date-range-input>
+                <mat-datepicker-toggle matSuffix [for]="date_picker"></mat-datepicker-toggle>
+                <mat-date-range-picker #date_picker></mat-date-range-picker>
+            </mat-form-field>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,55 @@
+<span class="fill-remaining-space">
+    <button class="profile-img" mat-icon-button [matMenuTriggerFor]="menu" (click)="onReadNotification()">
+        <mat-icon
+            [matBadgeHidden]="initialValuesProps === null"
+            [matBadge]="initialValuesProps?.length"
+            matBadgeColor="warn"
+            >notifications</mat-icon
+        >
+    </button>
+    <mat-menu [hasBackdrop]="true" class="mr-2 container-fluid" #menu="matMenu" [overlapTrigger]="false">
+        <mat-card class="mat-elevation-z0" (click)="$event.stopPropagation()" (keydown)="$event.stopPropagation()">
+            <br />
+
+            <div
+                class="
+            "
+            >
+                <div class="" *ngIf="initialValuesProps !== null">
+                    <div *ngFor="let item of initialValuesProps" class="row mb-3">
+                        <div class="col-md-12">
+                            <div class="notification">
+                                <div class="notification-header"></div>
+                                <div class="notification-container">
+                                    <div class="notification-media">
+                                        <div alt="" class="border border-dark notification-user-avatar"></div>
+                                        <span class="notification-reaction">
+                                            {{ item.operation }}
+                                        </span>
+                                    </div>
+                                    <div class="notification-content">
+                                        <p class="notification-text">
+                                            <strong>{{ item.note }}</strong>
+                                        </p>
+                                        <span class="notification-timer">
+                                            {{ item.date_creation | date }}
+                                        </span>
+                                    </div>
+
+                                    <span *ngIf="item.vue !== true" class="notification-status"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="" *ngIf="initialValuesProps === null">
+                    <h6 class="text-center">Aucune notification trouvé</h6>
+                </div>
+            </div>
+        </mat-card>
+
+        <br *ngIf="initialValuesProps !== null" />
+        <br />
+    </mat-menu>
+</span>

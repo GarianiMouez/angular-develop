@@ -1,0 +1,907 @@
+{
+  "currentTheme": "rtl",
+  "APP": {
+    "NAVBAR": {
+      "DROPDOWN": {
+        "PROFILE": "الملف الشخصي",
+        "SETTINGS": "إعدادات",
+        "LOGOUT": "تسجيل خروج"
+      }
+    },
+    "SIDEBAR": {
+      "DAHSBOARD": "لوحة القيادة",
+      "INVOICES": "الفواتير",
+      "ESTIMATES": "التقديرات",
+      "CLIENTS": "العملاء",
+      "ARTICLES": " البضائع",
+      "PROFILE": "الملف الشخصي",
+      "ACCOUNT": "الحساب",
+      "CHANGE_PASSWORD": "غير كلمة السر",
+      "SETTINGS": "إعدادات",
+      "INVOICE": "فاتورة",
+      "COMPANY": "المؤسسة",
+      "DISPLAY": "عرض",
+      "CONTACT_US": "اتصل بنا",
+      "MORE_ABOUT_BPS": "BPS المزيد عن"
+    },
+    "BODY": {
+      "REGISTER": {
+        "CARD": {
+          "TITLE": {
+            "TEXT": "يسجل",
+            "HINT": "اشتراك"
+          },
+          "BODY": {
+            "USERNAME": {
+              "TEXT": "اسم المستخدم",
+              "PLACEHOLDER": "اسم المستخدم",
+              "REQUIRED_FIELD_MESSAGE": "خانة ضرورية"
+            },
+            "COMPANY": {
+              "LOGO": "شعار المؤسسة ",
+              "TEXT": "  اسم المؤسسة",
+              "PLACEHOLDER": "اسم الشركة",
+              "REQUIRED_FIELD_MESSAGE": "خانة ضرورية"
+            },
+            "ADDRESS": {
+              "TEXT": "العنوان",
+              "PLACEHOLDER": "العنوان",
+              "REQUIRED_FIELD_MESSAGE": "خانة ضرورية"
+            },
+            "PHONE": {
+              "TEXT": "الهاتف",
+              "PLACEHOLDER": "الهاتف",
+              "REQUIRED_FIELD_MESSAGE": "خانة ضرورية",
+              "INVALID_FORMAT_MESSAGE": " يجب أن يتكون رقم الهاتف من 8 أرقام"
+            },
+            "FAX": {
+              "TEXT": "الفاكس",
+              "PLACEHOLDER": "اسم الشركة",
+              "REQUIRED_FIELD_MESSAGE": "خانة ضرورية",
+              "INVALID_FORMAT_MESSAGE": "يجب أن يتكون رقم الفاكس من 8 أرقام"
+            },
+            "EMAIL": {
+              "TEXT": "البريد الإلكتروني",
+              "PLACEHOLDER": "البريد الإلكتروني",
+              "REQUIRED_FIELD_MESSAGE": "خانة ضرورية",
+              "INVALID_FORMAT_MESSAGE": "صيغة خاطئة"
+            },
+
+            "PASSWORD": {
+              "TEXT": "كلمة السر",
+              "PLACEHOLDER": "كلمة السر",
+              "REQUIRED_FIELD_MESSAGE": "    تأكيد كلمة السر",
+              "MIN_LENGTH_MESSAGE": " يجب أن تحتوي كلمة السر على 8 أحرف على الأقل",
+              "PASSWORD_PATTERN_MESSAGE": " يجب أن تحتوي كلمة السر على أحرف وأرقام وأحرف خاصة "
+            },
+            "NEW_PASSWORD": {
+              "TEXT": "كلمة السر الجديدة",
+              "PLACEHOLDER": "كلمة سرك الجديدة",
+              "REQUIRED_FIELD_MESSAGE": "خانة ضرورية",
+              "MIN_LENGTH_MESSAGE": " يجب أن تحتوي كلمةالسر الجديدة على 8 أحرف على الأقل",
+              "PASSWORD_PATTERN_MESSAGE": " يجب أن تحتوي كلمة السر الجديدة على أحرف وأرقام وأحرف خاصة "
+            },
+            "CONFIRM_PASSWORD": {
+              "TEXT": "تأكيد كلمة السر",
+              "PLACEHOLDER": "تأكيد كلمة السر",
+              "REQUIRED_FIELD_MESSAGE": "خانة ضرورية",
+              "MATCHING_PASSWORDS_MESSAGE": "كلمات السر لا تتطابق. حاول مرة اخرى "
+            }
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "REGISTRATION_BTN": " يسجل",
+              "NEXT_BTN": "يكمل",
+              "CANCEL": "يلغي"
+            },
+            "TEXTS": {
+              "SIGN_UP_WITH": "التسجيل بحساب",
+              "HAVE_ACCOUNT_TEXT": "لديك حساب بالفعل",
+              "LOGIN_TEXT": "تسجيل الدخول"
+            },
+            "PRIVICY": {
+              "TEXT": "Parkini بالنقر فوق تسجيل ، أوافق على أنني قد قرأت وقبلت شروط الاستخدام وسياسة الخصوصية الخاصة بشركة "
+            }
+          }
+        }
+      },
+      "LOGIN": {
+        "CARD": {
+          "TITLE": {
+            "TEXT": "تسجيل الدخول",
+            "HINT": "الدخول  إلى حسابك"
+          },
+          "EMAIL": {
+            "TEXT": "اسم المستخدم",
+            "PLACEHOLDER": "اسم المستخدم",
+            "REQUIRED_FIELD_MESSAGE": "الحقل المطلوب",
+            "INVALID_FORMAT_MESSAGE": "صيغة خاطئة"
+          },
+          "PASSWORD": {
+            "TEXT": "كلمة السر",
+            "PLACEHOLDER": "كلمة سرك",
+            "REQUIRED_FIELD_MESSAGE": "خانة ضرورية"
+          },
+          "NEW_PASSWORD": {
+            "TEXT": "كلمة السر",
+            "PLACEHOLDER": "كلمة سرك",
+            "REQUIRED_FIELD_MESSAGE": "خانة ضرورية"
+          },
+          "INEXISTANT_ACCOUNT": {
+            "TEXT": "ليس لديك حساب؟ "
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "LOGIN_BTN": "تسجيل الدخول"
+            },
+            "TEXTS": {
+              "FORGOT_PASSWORD": "هل نسيت كلمة السر",
+              "RESET_PASSWORD": "اعد ضبط كلمه السر"
+            }
+          }
+        }
+      },
+      "CLIENTS": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "الحرفاء",
+            "BUTTONS": {
+              "ADD_BTN": "يضيف"
+            }
+          },
+          "FOOTER": {
+            "TEXT": "عدد الحرفاء"
+          }
+        },
+        "TABLE": {
+          "TH": {
+            "NAME": "اسم",
+            "ADDRESS": "العنوان",
+            "EMAIL": "البريد الإلكتروني",
+            "MATRICULE_FISCALE": "المعرف الجبائي",
+            "PHONE": "الهاتف",
+            "FAX": "فاكس",
+            "ACTIONS": "أجراءات"
+          },
+          "TD": {
+            "SEARCH": {
+              "PLACEHOLDER": "البحث عن الحرفاء"
+            }
+          }
+        },
+        "POPUP": {
+          "HEADER": {
+            "CREATION_HEADER": {
+              "TITLE": "إضافة حريف"
+            },
+            "EDITION_HEADER": {
+              "TITLE": "تعديل حريف"
+            }
+          },
+          "BODY": {
+            "NAME": {
+              "TEXT": "اسم",
+              "PLACEHOLDER": "اسم",
+              "REQUIRED": "مطلوب اسم",
+              "ALREADY_EXIST": "الاسم موجود بالفعل"
+            },
+            "EMAIL": {
+              "TEXT": "البريد الإلكتروني",
+              "PLACEHOLDER": "البريد الإلكتروني",
+              "REQUIRED": "البريد الإلكتروني مطلوب",
+              "INVALID_FORMAT_MESSAGE": "صيغة خاطئة"
+            },
+            "ADDRESS": {
+              "TEXT": "العنوان",
+              "PLACEHOLDER": "العنوان",
+              "REQUIRED": "العنوان اجباري"
+            },
+            "MATRICULE_FISCALE": {
+              "TEXT": "المعرف الجبائي",
+              "PLACEHOLDER": "المعرف الجبائي",
+              "REQUIRED": "المعرف الجبائي  إجباري",
+              "STATUS_INVALID": "حرف   النظام  غير صحيح",
+              "TVA_INVALID": "حرف  الأداء على القيمة المضافة غير صحيح"
+            },
+            "TVA": {
+              "TEXT": "الأداء على القيمة المضافة",
+              "PLACEHOLDER": "الأداء على القيمة المضافة",
+              "REQUIRED": " الأداء على القيمة المضافة إجباري ",
+              "TRUE": "Vrai",
+              "FALSE": "Faux"
+            },
+
+            "PHONE": {
+              "TEXT": "الهاتف",
+              "PLACEHOLDER": "الهاتف",
+              "REQUIRED_FIELD_MESSAGE": " خانة ضرورية",
+              "INVALID_FORMAT_MESSAGE": " يجب أن يتكون رقم الهاتف من 8 أرقام"
+            },
+            "FAX": {
+              "TEXT": "فاكس",
+              "PLACEHOLDER": "اسم الشركة",
+              "REQUIRED_FIELD_MESSAGE": "خانة ضرورية",
+              "INVALID_FORMAT_MESSAGE": " يجب أن يتكون رقم الفاكس من 8 أرقام"
+            },
+            "STAMP": {
+              "TEXT": "طابع بريدي ",
+              "PLACEHOLDER": "طابع بريدي ",
+              "REQUIRED": "طابع بريدي  إجباري",
+              "TRUE": "Vrai",
+              "FALSE": "Faux"
+            }
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": " تأكيد",
+              "CANCEL": "إلغاء "
+            }
+          }
+        },
+        "DELETION_POPUP": {
+          "HEADER": {
+            "TEXT": "حذف"
+          },
+          "BODY": {
+            "TEXT": "هل أنت متأكد أنك تريد حذف  "
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": " تأكيد",
+              "CANCEL": "إلغاء "
+            }
+          }
+        },
+        "DETAILS_POPUP": {
+          "HEADER": {
+            "TEXT": "تفاصيل"
+          }
+        }
+      },
+      "ARTICLES": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "مُنتَجات",
+            "BUTTONS": {
+              "ADD_BTN": "إضافة "
+            }
+          },
+          "FOOTER": {
+            "TEXT": "عدد المنتجات"
+          }
+        },
+        "TABLE": {
+          "TH": {
+            "CODE": "رمز",
+            "ARTICLE": "المنتج",
+            "PRICE": "السعر",
+            "TVA": "الأداء على القيمة المضافة",
+            "STATUS": "النظام",
+            "ACTIONS": "أجراءات"
+          },
+          "TD": {
+            "SEARCH": {
+              "PLACEHOLDER": "البحث عن المنتجات"
+            }
+          }
+        },
+        "POPUP": {
+          "HEADER": {
+            "CREATION_HEADER": {
+              "TITLE": "إضافة  منتج"
+            },
+            "EDITION_HEADER": {
+              "TITLE": " تعديل منتج"
+            }
+          },
+          "BODY": {
+            "CODE": {
+              "TEXT": "رمز",
+              "PLACEHOLDER": "رمز",
+              "REQUIRED": "الرمز إجباري",
+              "ALREADY_EXIST": "موجود مسبقا"
+            },
+            "ARTICLE": {
+              "TEXT": "منتج",
+              "PLACEHOLDER": "منتج",
+              "REQUIRED": " منتج إجباري",
+              "MAXLENGHT": "يجب ألا يتجاوز وصف المنتج 60 حرفا"
+            },
+            "PRICE": {
+              "TEXT": "السعر",
+              "PLACEHOLDER": "السعر",
+              "REQUIRED": "السعر إجباري"
+            },
+            "TVA": {
+              "TEXT": "الأداء على القيمة المضافة",
+              "PLACEHOLDER": "الأداء على القيمة المضافة",
+              "REQUIRED": " الأداء على القيمة المضافة إجباري "
+            },
+            "STATUS": {
+              "TEXT": "النظام",
+              "PLACEHOLDER": "النظام",
+              "REQUIRED": "النظام إجباري"
+            }
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": " تأكيد",
+              "CANCEL": "إلغاء "
+            }
+          }
+        },
+        "DELETION_POPUP": {
+          "HEADER": {
+            "TEXT": "حذف"
+          },
+          "BODY": {
+            "TEXT": "هل أنت متأكد أنك تريد حذف  "
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": " تأكيد",
+              "CANCEL": "إلغاء "
+            }
+          }
+        },
+        "DETAILS_POPUP": {
+          "HEADER": {
+            "TEXT": "تفاصيل"
+          }
+        }
+      },
+      "ESTIMATES": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "تقديراة",
+            "BUTTONS": {
+              "ADD_BTN": "إضافة "
+            }
+          },
+          "FOOTER": {
+            "TEXT": "عدد التقديرات"
+          }
+        },
+        "TABLE": {
+          "TH": {
+            "NUMBER": "عدد",
+            "DATE": "تاريخ",
+            "VALIDITY": "صلاحية",
+            "CLIENT": " الحريف",
+            "TOTAL_HT": "HT  مجموع",
+            "TOTAL_TTC": "TTC  مجموع",
+            "STATUS": "النظام",
+            "ACTIONS": "أجراءات"
+          },
+          "TD": {
+            "SEARCH": {
+              "PLACEHOLDER": "البحث عن تقديرات"
+            }
+          }
+        },
+        "POPUP": {
+          "HEADER": {
+            "CREATION_HEADER": {
+              "TITLE": "إضافة تقدير"
+            },
+            "EDITION_HEADER": {
+              "TITLE": "تعديل تقدير"
+            }
+          },
+          "BODY": {
+            "NUMBER": {
+              "TEXT": "عدد",
+              "PLACEHOLDER": "عدد",
+              "REQUIRED": "عدد إجباري",
+              "ALREADY_EXIST": "موجود مسبقا"
+            },
+            "DATE": {
+              "TEXT": "تاريخ",
+              "PLACEHOLDER": "تاريخ",
+              "REQUIRED": "تاريخ إجباري"
+            },
+            "VALIDITY_DATE": {
+              "TEXT": "تاريخ الصَّلاحِيَة",
+              "PLACEHOLDER": " تاريخ الصَّلاحِيَة",
+              "REQUIRED": "تاريخ الصَّلاحِيَة إجباري"
+            },
+            "CLIENT": {
+              "TEXT": "  اختر الحريف   ",
+              "DETAILS": "تفاصيل الحريف",
+              "PLACEHOLDER": "تفاصيل الحريف",
+              "NO_CLIENT_SELECTED": " لم يتم اختيار أي حريف"
+            },
+            "ARTICLE": {
+              "TEXT": "اختر منتج",
+              "PLACEHOLDER": "منتج",
+              "REQUIRED": " منتج إجباري"
+            },
+            "SIGNATURE": "إمضاء",
+            "DISCOUNT": {
+              "TITLE": " التخفيض على تقدير",
+              "TEXT": "تخفيض",
+              "PLACEHOLDER": "مجموع التخفيض"
+            },
+            "TVA": {
+              "TEXT": "الأداء على القيمة المضافة",
+              "PLACEHOLDER": "الأداء على القيمة المضافة",
+              "REQUIRED": "الأداء على القيمة المضافة إجباري"
+            },
+            "STATUS": {
+              "TEXT": "النظام",
+              "PLACEHOLDER": "النظام",
+              "REQUIRED": "النظام إجباري"
+            },
+            "PDF_LANGUAGES": "PDF لغة",
+            "LINES": {
+              "CODE": {
+                "TEXT": "الرمز",
+                "PLACEHOLDER": "الرمز",
+                "REQUIRED": "الرمز إجباري",
+                "ALREADY_EXIST": "موجود مسبقا"
+              },
+              "QUANTITY": {
+                "TEXT": "الكمية",
+                "PLACEHOLDER": "الكمية",
+                "REQUIRED": "الكمية اجبارية"
+              },
+              "PRICE": {
+                "TEXT": "السعر",
+                "PLACEHOLDER": "السعر",
+                "REQUIRED": "السعر إجباري"
+              },
+              "TVA": {
+                "TEXT": "الأداء على القيمة المضافة",
+                "PLACEHOLDER": "الأداء على القيمة المضافة",
+                "REQUIRED": "المعرف الجبائي  إجباري"
+              },
+              "DISCOUNT": {
+                "TEXT": "خط التخفيض",
+                "PLACEHOLDER": "التخفيض",
+                "REQUIRED": "مجموع التخفيض"
+              }
+            },
+            "TOTAL_HT": "HT مجموع",
+            "TOTAL_TVA": "مجموع الأداء على القيمة المضافة",
+            "TOTAL_TTC": "TTC مجموع",
+            "DRAFT": "مسودة ",
+            "MAKE_AS_PAID": "مدفوعة"
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": " تأكيد",
+              "CANCEL": "إلغاء "
+            }
+          }
+        },
+        "DELETION_POPUP": {
+          "HEADER": {
+            "TEXT": "حذف"
+          },
+          "BODY": {
+            "TEXT": "هل أنت متأكد أنك تريد حذف  "
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": " تأكيد",
+              "CANCEL": "إلغاء "
+            }
+          }
+        },
+        "DETAILS_POPUP": {
+          "HEADER": {
+            "TEXT": "تفاصيل"
+          }
+        }
+      },
+
+      "INVOICES": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "فواتير",
+            "BUTTONS": {
+              "ADD_BTN": "إضافة "
+            }
+          },
+          "FOOTER": {
+            "TEXT": "عدد الفواتير"
+          }
+        },
+        "TABLE": {
+          "TH": {
+            "NUMBER": "عدد",
+            "DATE": "تاريخ",
+            "CLIENT": "العميل",
+            "TOTAL_HT": "HT  مجموع",
+            "TOTAL_TTC": "TTC مجموع",
+            "TOTAL_TVA": "مجموع الأداء على القيمة المضافة",
+            "STATUS": "النظام",
+            "ACTIONS": "أجراءات"
+          },
+          "TD": {
+            "SEARCH": {
+              "PLACEHOLDER": "البحث عن فواتير"
+            }
+          }
+        },
+        "POPUP": {
+          "HEADER": {
+            "CREATION_HEADER": {
+              "TITLE": "اضافة فاتورة"
+            },
+            "EDITION_HEADER": {
+              "TITLE": "تعديل فاتورة"
+            }
+          },
+          "BODY": {
+            "NUMBER": {
+              "TEXT": "عدد",
+              "PLACEHOLDER": "عدد",
+              "REQUIRED": "عدد إجباري",
+              "ALREADY_EXIST": "موجود مسبقا"
+            },
+            "DATE": {
+              "TEXT": "تاريخ",
+              "PLACEHOLDER": "تاريخ",
+              "REQUIRED": "التاريخ اجباري"
+            },
+            "CLIENT": {
+              "TEXT": "  اختر الحريف   ",
+              "DETAILS": "تفاصيل الحريف",
+              "PLACEHOLDER": "  اختر الحريف   ",
+              "NO_CLIENT_SELECTED": " لم يتم اختيار أي حريف"
+            },
+            "ARTICLE": {
+              "TEXT": "اختر منتج",
+              "PLACEHOLDER": "منتج",
+              "REQUIRED": " منتج إجباري"
+            },
+            "SIGNATURE": "إمضاء",
+            "DISCOUNT": {
+              "TITLE": "تخفيض على الفاتورة",
+              "TEXT": "التخفيض",
+              "PLACEHOLDER": "مجموع التخفيض"
+            },
+            "TVA": {
+              "TEXT": "الأداء على القيمة المضافة",
+              "PLACEHOLDER": "الأداء على القيمة المضافة",
+              "REQUIRED": "الأداء على القيمة المضافة إجباري"
+            },
+            "STATUS": {
+              "TEXT": "النظام",
+              "PLACEHOLDER": "النظام",
+              "REQUIRED": "النظام إجباري"
+            },
+            "PDF_LANGUAGES": "PDF لغة",
+            "LINES": {
+              "CODE": {
+                "TEXT": "رمز",
+                "PLACEHOLDER": "رمز",
+                "REQUIRED": "الرمز إجباري",
+                "ALREADY_EXIST": "موجود مسبقا"
+              },
+              "QUANTITY": {
+                "TEXT": "الكمية",
+                "PLACEHOLDER": "الكمية",
+                "REQUIRED": "الكمية اجبارية"
+              },
+              "PRICE": {
+                "TEXT": "السعر",
+                "PLACEHOLDER": "السعر",
+                "REQUIRED": "السعر إجباري"
+              },
+              "TVA": {
+                "TEXT": "الأداء على القيمة المضافة",
+                "PLACEHOLDER": "الأداء على القيمة المضافة",
+                "REQUIRED": "الأداء على القيمة المضافة إجباري"
+              },
+              "DISCOUNT": {
+                "TEXT": "خط التخفيض",
+                "PLACEHOLDER": "التخفيض",
+                "REQUIRED": "التخفيض اجباري"
+              }
+            },
+            "TOTAL_HT": "HT مجموع",
+            "TOTAL_TVA": "مجموع الأداء على القيمة المضافة",
+            "TOTAL_TTC": "TTC مجموع",
+            "STAMP": "طابع بريدي",
+            "DRAFT": "مسودة ",
+            "MAKE_AS_PAID": "مدفوعة"
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": " تأكيد",
+              "CANCEL": "إلغاء "
+            }
+          }
+        },
+        "DELETION_POPUP": {
+          "HEADER": {
+            "TEXT": "حذف"
+          },
+          "BODY": {
+            "TEXT": "هل أنت متأكد أنك تريد حذف  "
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": " تأكيد",
+              "CANCEL": "إلغاء "
+            }
+          }
+        },
+        "DETAILS_POPUP": {
+          "HEADER": {
+            "TEXT": "تفاصيل"
+          }
+        }
+      },
+      "ACCOUNT": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "حساب"
+          },
+          "BODY": {
+            "NAME": "اسم",
+            "EMAIL": "البريد الإلكتروني",
+            "SIGNATURE": "إمضاء"
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": " تأكيد",
+              "CANCEL": "إلغاء "
+            }
+          }
+        }
+      },
+      "CHANGE_PASSWORD": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "غير كلمة السر"
+          },
+          "BODY": {
+            "CURRENT_PASSWORD": "كلمة السر الحالية",
+            "NEW_PASSWORD": "كلمة السر الجديدة",
+            "CONFIRM_PASSWORD": "تأكيد كلمة السر",
+            "SHOW_PASSWORD": "عرض كلمة السر",
+            "REQUIRED_FIELD_MESSAGE": " خانة ضرورية",
+            "MATCHING_PASSWORDS_MESSAGE": "كلمات السر لا تتطابق. حاول مرة اخرى "
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": " تأكيد",
+              "CANCEL": "إلغاء "
+            }
+          }
+        }
+      },
+      "DISPLAY": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "عرض"
+          },
+          "BODY": {
+            "LANGUAGES": "لغات",
+            "THEMES": "موضةع النظام"
+          }
+        }
+      },
+      "COMPANY": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "المؤسسة"
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": " تأكيد",
+              "CANCEL": "إلغاء "
+            }
+          }
+        },
+        "TABLE": {
+          "TH": {
+            "NAME": "اسم",
+            "ADDRESS": "العنوان",
+            "MATRICULE_FISCALE": "المعرف الجبائي",
+            "PHONE": "الهاتف",
+            "FAX": "الفاكس",
+            "RIB": "معرف الهوية البنكية",
+            "ACTIONS": "أجراءات"
+          },
+          "TD": {
+            "SEARCH": {
+              "PLACEHOLDER": "البحث عن عملاء"
+            }
+          },
+          "BODY": {
+            "NAME": {
+              "TEXT": "اسم",
+              "PLACEHOLDER": "اسم",
+              "REQUIRED": "اسم اجباري",
+              "ALREADY_EXIST": "الاسم موجود بالفعل"
+            },
+            "ADDRESS": {
+              "TEXT": "العنوان",
+              "PLACEHOLDER": "العنوان",
+              "REQUIRED": "العنوان اجباري"
+            },
+            "MATRICULE_FISCALE": {
+              "TEXT": "المعرف الجبائي",
+              "PLACEHOLDER": "المعرف الجبائي",
+              "REQUIRED": "المعرف الجبائي  إجباري",
+              "STATUS_INVALID": "حرف   النظام  غير صحيح",
+              "TVA_INVALID": "حرف  الأداء على القيمة المضافة غير صحيح"
+            },
+
+            "PHONE": {
+              "TEXT": "الهاتف",
+              "PLACEHOLDER": "الهاتف",
+              "REQUIRED_FIELD_MESSAGE": " خانة ضرورية",
+              "INVALID_FORMAT_MESSAGE": " يجب أن يتكون رقم الهاتف من 8 أرقام"
+            },
+            "FAX": {
+              "TEXT": "فاكس",
+              "PLACEHOLDER": "اسم الشركة",
+              "REQUIRED_FIELD_MESSAGE": "خانة ضرورية",
+              "INVALID_FORMAT_MESSAGE": " يجب أن يتكون رقم الفاكس من 8 أرقام"
+            },
+            "RIB": {
+              "TEXT": "معرف الهوية البنكية",
+              "PLACEHOLDER": "معرف الهوية البنكية",
+              "REQUIRED": "معرف الهوية البنكية إجباري"
+            }
+          }
+        }
+      },
+
+      "CONTACT": {
+        "CARD": {
+          "TITLE": "اتصل بنا",
+          "BODY": {
+            "TITLE": "عنوان",
+            "MESSAGE": "رسالة"
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "SEND": "إرسال",
+              "CANCEL": "إلغاء "
+            }
+          }
+        }
+      },
+      "TVA": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": " الأداء على القيمة المضافة",
+            "BUTTONS": {
+              "ADD_BTN": "إضافة الأداء على القيمة المضافة"
+            }
+          },
+          "FOOTER": {
+            "TEXT": "  أرقام الأداء على القيمة المضافة أن تكون"
+          }
+        },
+        "TABLE": {
+          "TH": {
+            "TVA": "الأداء على القيمة المضافة",
+            "ACTIONS": "إجراءات "
+          },
+          "BODY": {
+            "TVA": {
+              "TEXT": "الأداء على القيمة المضافة",
+              "PLACEHOLDER": "الأداء على القيمة المضافة",
+              "REQUIRED": "الأداء على القيمة المضافة إجباري",
+              "INVALID": "يجب أن تكون الأداء على القيمة المضافة بين 0 و 90"
+            }
+          }
+        }
+      },
+
+      "PREFERENCES": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "تفضيلات"
+          },
+          "BODY": {
+            "DIGITS_NUMBER": {
+              "TEXT": "عدد ارقام السعر",
+              "PLACEHOLDER": "عدد ارقام السعر",
+              "REQUIRED": "عدد ارقام السعر اجباري"
+            },
+            "QUANTITY_NUMBER": {
+              "TEXT": "عدد أرقام الكمية",
+              "PLACEHOLDER": "عدد أرقام الكمية",
+              "REQUIRED": "عدد أرقام الكمية إجباري"
+            },
+            "STAMP": {
+              "TEXT": "الطابع بريد",
+              "PLACEHOLDER": "الطابع بريد",
+              "REQUIRED": "الطابع بريدإجباري"
+            },
+            "FOOTER": {
+              "TEXT": "أَسْفَلُ الصَّفْحَة",
+              "PLACEHOLDER": "أَسْفَلُ الصَّفْحَة",
+              "REQUIRED": "أَسْفَلُ الصَّفْحَة إجباري"
+            },
+            "DISCOUNT": {
+              "TEXT": "تخفيض",
+              "PLACEHOLDER": "تخفيض"
+            },
+            "EDIT_ITEM": {
+              "TEXT": "تغيير عنصر ",
+              "PLACEHOLDER": "تغيير عنصر "
+            }
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": " تأكيد",
+              "CANCEL": "إلغاء "
+            }
+          }
+        }
+      },
+
+      "DASHBOARD": {
+        "SALES": {
+          "HEADER": { "TITLE": "المبيعات" },
+          "BODY": {
+            "ARTICLE": "المنتج",
+            "INVOICE": "الكمية",
+            "TOTAL": "المجموع"
+          }
+        },
+        "ARTICLES": {
+          "HEADER": { "TITLE": "المنتج" },
+          "BODY": {
+            "ARTICLE": "المنتج",
+            "QUANTITY": "الكمية",
+            "PRICE": "السعر",
+            "TOTAL": "المجموع"
+          }
+        },
+        "CLIENTS": {
+          "HEADER": { "TITLE": "العملاء" },
+          "BODY": {
+            "NAME": "اسم",
+            "QUANTITY": "الكمية",
+            "INVOICE": "الفاتورة",
+            "TOTAL_HT": "HT مجموع",
+            "TOTAL_TTC": "TTC مجموع"
+          }
+        },
+        "01": "جانفي",
+        "02": "فيفري",
+        "03": "مارس",
+        "04": "أفريل",
+        "05": "ماي",
+        "06": "جوان",
+        "07": "جويلية",
+        "08": "أوت",
+        "09": "سبتمبر",
+        "10": "اكتوبر",
+        "11": "نوفمبر",
+        "12": "ديسمبر",
+        "PICK_DATES": "الرجاء اختيار التواريخ",
+        "ENTER_DATES": "أدخل نطاقًا زمنيًا"
+      },
+
+      "RESET_PASSWORD": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "إعادة ضبط كلمة السر"
+          },
+          "BODY": { "EMAIL": "البريد الإلكتروني" },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "إعادة ضبط كلمة السر",
+              "BACK": "رجوع"
+            }
+          }
+        }
+      },
+
+      "OTHERS": {
+        "OR": "أو"
+      }
+    }
+  }
+}

@@ -1,0 +1,430 @@
+/* body {
+    font-family: 'Covered By Your Grace', cursive;
+    line-height: 1.25;
+}
+
+svg {
+    width: 0px !important;
+    height: 0px !important;
+}
+
+@media screen and (max-width: 780px) {
+    .mat-table {
+        border: 0;
+        vertical-align: middle;
+    }
+
+    .mat-table caption {
+        font-size: 1em;
+    }
+
+    .mat-table .mat-row {
+         display: block;
+    }
+
+    .mat-table .mat-cell {
+        display: block;
+         text-align: right;
+        font-weight: bolder;
+        height: 25px;
+        margin-bottom: 0%;
+    }
+    .mat-table .mat-cell:before {
+        content: attr(data-label);
+        float: left;
+        text-transform: uppercase;
+        font-weight: normal;
+
+        font-size: 0.85em;
+    }
+    .mat-table .mat-cell:last-child {
+        border-bottom: 0;
+    }
+    .mat-table .mat-cell:first-child {
+        margin-top: 4%;
+    }
+}
+
+
+table {
+    width: 100%;
+}
+.mat-column-star {
+    float: right;
+}
+
+.mat-row {
+    &:hover {
+     }
+    a {
+        float: left !important;
+        color: #3e75ff;
+        font-size: 15px;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.mat-icon {
+    color: #3e75ff;
+}
+
+td.mat-cell,
+th.mat-header-cell {
+    text-align: center;
+    justify-content: center;
+}
+
+th.mat-sort-header-container {
+    text-align: center;
+    justify-content: center;
+}
+
+table {
+    text-align: center !important;
+    width: 100%;
+}
+a {
+    align-items: center !important;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+th.mat-header-cell:first-of-type,
+td.mat-cell:first-of-type,
+td.mat-footer-cell:first-of-type {
+    padding-left: 12px !important;
+}
+
+
+span {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+span::selection {
+    background: transparent;
+}
+
+@media screen and (max-width: 780px) {
+    .mat-elevation-z8 {
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .mat-header-row {
+        display: none;
+    }
+
+    .mat-table {
+        background: transparent;
+        * {
+            box-sizing: border-box;
+        }
+
+        .mat-row {
+            display: block;
+            overflow: hidden;
+            height: auto;
+            position: relative;
+            clear: both;
+            box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+                0 1px 3px 0 rgba(0, 0, 0, 0.12);
+            background-color: #fff;
+            border-radius: 3px;
+            + .mat-row {
+                margin-top: 24px;
+            }
+        }
+
+        .mat-cell {
+            display: block;
+            width: 100%;
+            padding: 0 10px;
+            border: 0 none;
+
+        }
+
+        .has_label_on_mobile {
+            &:before {
+                content: attr(data-label);
+                display: inline;
+                font-weight: normal;
+            }
+        }
+
+        .mat-column-star {
+            width: auto;
+            padding: 8px 0 0 !important;
+            margin: 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+            &:before {
+                display: none;
+            }
+        }
+    }
+
+    .mat-paginator {
+        margin-top: 24px;
+    }
+}
+::ng-deep .mat-paginator-page-size {
+    margin-right: auto !important;
+}
+
+.mat-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-lg {
+    margin-top: 5px !important;
+    max-width: 1280px;
+}
+ */
+ body {
+  font-family: 'Covered By Your Grace', cursive;
+  line-height: 1.25;
+}
+
+svg {
+  width: 0px !important;
+  height: 0px !important;
+}
+
+@media screen and (max-width: 780px) {
+  .mat-table {
+      border: 0;
+      vertical-align: middle;
+  }
+
+  .mat-table caption {
+      font-size: 1em;
+  }
+
+  .mat-table .mat-row {
+      border-bottom: 0.1px solid rgb(150, 149, 149);
+      display: block;
+  }
+
+  .mat-table .mat-cell {
+      display: block;
+      /*         font-size: 1em; */
+      text-align: right;
+      font-weight: bolder;
+      height: 25px;
+      margin-bottom: 0%;
+  }
+  .mat-table .mat-cell:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: normal;
+
+      font-size: 0.85em;
+  }
+  .mat-table .mat-cell:last-child {
+      border-bottom: 0;
+  }
+  .mat-table .mat-cell:first-child {
+      margin-top: 4%;
+  }
+}
+
+.modal-lg {
+  margin-top: 6px !important;
+  max-width: 1280px;
+}
+
+/* th {
+z-index: none;
+} */
+table {
+  width: 100%;
+}
+.mat-column-star {
+  float: right;
+}
+
+.mat-row {
+  &:hover {
+      background-color: #e9f3ff;
+  }
+  a {
+      float: left !important;
+      color: #3e75ff !important;
+      font-size: 15px;
+      text-decoration: none;
+      &:hover {
+          text-decoration: underline;
+      }
+  }
+}
+
+.mat-icon {
+  /*     color: #3e75ff; */
+}
+
+td.mat-cell,
+th.mat-header-cell {
+  text-align: center;
+  justify-content: center;
+  /*     border-bottom-color: rgba(0, 0, 0, 0.12); */
+}
+
+th.mat-sort-header-container {
+  text-align: center;
+  justify-content: center;
+}
+
+::ng-deep .mat-dialog-container {
+  /*     width: 50% !important;
+height: 35% !important; */
+}
+/* .mat-sort-header-container {
+text-align: center !important   ;
+justify-content: center !important;
+} */
+/* ::ng-deep th.mat-sort-header {
+text-align: center;
+justify-content: center;
+} */
+table {
+  text-align: center !important;
+  width: 100%;
+}
+a {
+  align-items: center !important;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+th.mat-header-cell:first-of-type,
+td.mat-cell:first-of-type,
+td.mat-footer-cell:first-of-type {
+  padding-left: 12px !important;
+}
+
+/* span {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+*/
+
+span {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+span::selection {
+  background: transparent;
+}
+
+@media screen and (max-width: 780px) {
+  .mat-elevation-z8 {
+      background: transparent;
+      box-shadow: none;
+  }
+
+  .mat-header-row {
+      display: none;
+  }
+
+  .mat-table {
+      background: transparent;
+      * {
+          box-sizing: border-box;
+      }
+
+      .mat-row {
+          display: block;
+          overflow: hidden;
+          height: auto;
+          position: relative;
+          clear: both;
+          box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+              0 1px 3px 0 rgba(0, 0, 0, 0.12);
+          background-color: #ce0000;
+          border-radius: 3px;
+          + .mat-row {
+              margin-top: 20px;
+          }
+      }
+
+      .mat-cell {
+          display: block;
+          width: 100%;
+          padding: 0 10px;
+          border: 0 none;
+          /*     &:first-child {
+            padding: 0 8px 0 5px;
+            a {
+                font-size: 20px;
+                color: inherit;
+            }
+            &:before {
+                display: none;
+            }
+        } */
+      }
+
+      .has_label_on_mobile {
+          &:before {
+              content: attr(data-label);
+              display: inline;
+              font-weight: normal;
+          }
+      }
+
+      .mat-column-star {
+          width: auto;
+          padding: 8px 0 0 !important;
+          margin: 0;
+          position: absolute;
+          top: 0;
+          right: 0;
+          &:before {
+              display: none;
+          }
+      }
+  }
+
+  .mat-paginator {
+      margin-top: 24px;
+  }
+}
+
+::ng-deep .mat-paginator-page-size {
+  margin-right: auto !important;
+}
+
+.mat-card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .mat-card-header {
+flex-shrink: 0;
+}
+
+.mat-card-content {
+flex-grow: 1;
+overflow: auto;
+}
+*/

@@ -1,0 +1,30 @@
+<div class="" *ngIf="form && data.length > 0">
+    <form [formGroup]="form">
+        <div class="example-small-bdoxd mat-elevation-z0">
+            <mat-form-field>
+                <mat-select
+                    [disableOptionCentering]="true"
+                    placeholder
+                    #select1
+                    [placeholder]="placeholder"
+                    (valueChange)="onSendData($event)"
+                    class="text-center"
+                >
+                    <mat-select-filter
+                        *ngIf="select1.focused"
+                        [array]="data"
+                        (filteredReturn)="filteredData = $event"
+                    ></mat-select-filter>
+                    <mat-option *ngFor="let item of filteredData" [value]="item" class="ml-3">
+                        <span *ngIf="isEmptyObject(item)">
+                            {{ item.nom }}
+                        </span>
+                        <span *ngIf="!isEmptyObject(item)">
+                            {{ item }}
+                        </span>
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+    </form>
+</div>

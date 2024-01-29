@@ -1,0 +1,84 @@
+<mat-card class="mat-elevation-z0">
+    <mat-tab-group [selectedIndex]="0" mat-stretch-tabs>
+        <mat-tab label="Info" [class.mat-elevation-z2]="true">
+            <mat-card class="mat-elevation-z0">
+                <br />
+
+                <form *ngIf="!!form" [formGroup]="form" class="manager-form">
+                    <mat-card-content>
+                        <div class="row">
+                            <div class="offset-md-1 col-md-10">
+                                <br class="" />
+                                <mat-form-field style="width: 100%" class="border-black" appearance="outline">
+                                    <mat-icon matPrefix color="primary"> </mat-icon>
+                                    <mat-label class="text-center">
+                                        {{ 'APP.BODY.SECTIONS.TABLE.TH.TITRE' | translate }}</mat-label>
+                                    <input #firstname class="text-center" matColumnDef="TITRE" matInput
+                                        [formControl]="form.controls.titre" />
+
+                                    <mat-error *ngIf="form.controls.titre.errors?.required">
+                                        {{ 'APP.BODY.SECTIONS.TABLE.TH.TITRE' | translate }}</mat-error>
+                                </mat-form-field>
+                            </div>
+
+                            <br />
+                        </div>
+                    </mat-card-content>
+                </form>
+            </mat-card>
+        </mat-tab>
+        <mat-tab label="Questions">
+            <mat-card class="mat-elevation-z0">
+                <div cdkDropListGroup>
+                    <div class="example-container">
+                        <br />
+                        <h6 class="text-muted mb-2">Question disponible</h6>
+                        <br />
+                        <div cdkDropList [cdkDropListData]="questions" class="example-list" cdkDropListSortingDisabled
+                            (cdkDropListDropped)="drop($event)">
+                            <div class="example-box d-flex justify-content-start" *ngFor="let item of questions"
+                                cdkDrag>
+                                {{ item.name }}&nbsp; &nbsp;
+                                <span class="text-muted">
+                                    {{ item.type }}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="example-container">
+                        <br />
+                        <h6 class="text-muted">Question affectée</h6>
+                        <br />
+                        <div cdkDropList [cdkDropListData]="sections_questions" class="example-list"
+                            (cdkDropListDropped)="drop($event)">
+                            <div class="example-box d-flex justify-content-start"
+                                *ngFor="let item of sections_questions" cdkDrag>
+                                {{ item.name }}&nbsp; &nbsp;
+                                <span class="text-muted">
+                                    {{ item.type }}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </mat-card>
+        </mat-tab>
+    </mat-tab-group>
+    <br />
+
+    <mat-divider></mat-divider>
+    <br />
+    <mat-card-footer class="">
+        <mat-card-actions>
+            <button mat-raised-button>
+                <mat-icon class="cancel">clear</mat-icon>
+                {{ 'APP.BODY.CAMIONS.POPUP.FOOTER.BUTTONS.CANCEL' | translate }}
+            </button>
+            <button mat-raised-button formPage (click)="save()">
+                <mat-icon class="success">check</mat-icon>
+                {{ 'APP.BODY.CAMIONS.POPUP.FOOTER.BUTTONS.VALIDATE' | translate }}
+            </button>
+        </mat-card-actions>
+    </mat-card-footer>
+</mat-card>

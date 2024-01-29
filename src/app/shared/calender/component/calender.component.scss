@@ -1,0 +1,32 @@
+.button-row {
+    display: table-cell;
+    max-width: 600px;
+}
+
+::ng-deep .cal-month-view .cal-open-day-events {
+    background-color: #000000 !important;
+}
+.active {
+    background-color: rgb(255, 255, 255);
+    color: red !important;
+}
+
+.test {
+    list-style-type: none;
+}
+
+::ng-deep .cal-month-view .cal-open-day-events {
+    background-color: #000000 !important;
+    display: block !important;
+    width: 100% !important;
+    max-height: 240px !important;
+    overflow-y: scroll !important;
+}
+
+::ng-deep  .disabled-date {
+       opacity: 0.5;
+       background: #dddddd;
+
+/*     background-color: red !important;
+ */    pointer-events: none;
+}

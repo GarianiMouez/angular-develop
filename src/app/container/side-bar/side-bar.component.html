@@ -1,0 +1,93 @@
+<div class="text-center" style="background-color: #fdfdfd !important">
+    <img
+        class="mb-3 mt-3"
+        src="./../../../assets/img/brand/mrc-app-logo.png"
+        width="24%"
+        height="2%"
+        style="background-size: cover !important"
+        alt=""
+    />
+</div>
+<mat-divider class="bg-light"></mat-divider>
+
+<mat-nav-list class="text-mrc" [ngClass]="'currentTheme' | translate">
+    <div *ngFor="let item of navItems">
+        <span
+            *ngIf="item.children && item.children.length > 0 && item.role.indexOf(currentRole$ | async) > -1 as tt"
+        >
+            <!--      <mat-accordion>
+                <mat-divider></mat-divider>
+                <mat-expansion-panel
+                    [expanded]="indexExpanded !== -1 && indexExpanded === item.id"
+                    class="mat-elevation-z0 mt-2 sidebar-panel p-0"
+                >
+                    <mat-expansion-panel-header class="sidebar-child" (click)="togglePanels(item.id)">
+                        <mat-icon class="icon-mrc">{{ item.icon }}</mat-icon>
+                        &nbsp; &nbsp; &nbsp;
+                        <span class="ml-4 sidenav-mrc"> {{ item.name | translate }}</span>
+                        <span class="ms-auto" *ngIf="!(indexExpanded !== -1 && indexExpanded === item.id)">
+                            <mat-icon class=""> arrow_drop_down</mat-icon> &nbsp;
+                        </span>
+                        <span
+                            class="ms-auto text-secondary"
+                            *ngIf="indexExpanded !== -1 && indexExpanded === item.id"
+                        >
+                            <mat-icon> arrow_drop_up</mat-icon> &nbsp;
+                        </span>
+                    </mat-expansion-panel-header>
+                    <span *ngFor="let child of item.children">
+                        <mat-toolbar-row
+                            (click)="onHideSideBar()"
+                            [routerLink]="[child.url]"
+                            routerLinkActive="active"
+                            [routerLinkActiveOptions]="{ exact: true }"
+                        >
+                            <mat-icon class="ml-3"> {{ child.icon }}</mat-icon> &nbsp;&nbsp;
+                            <span class="ml-3 text-center" style="cursor: pointer">
+                                {{ child.name | translate }}</span
+                            >
+                        </mat-toolbar-row>
+                    </span>
+                </mat-expansion-panel>
+                <mat-divider></mat-divider>
+            </mat-accordion> -->
+        </span>
+
+        <span *ngIf="!item.children || item.children.length === 0">
+            <mat-toolbar-row
+                [class]="item.class"
+                *ngIf="item.name !== 'Factarni' && item.name !== 'Contact us' && item.name !== 'More About BPS'"
+                (click)="onHideSideBar()"
+                [routerLink]="[item.url]"
+                role="presentation"
+                [routerLinkActive]="['active']"
+                [routerLinkActiveOptions]="{ exact: true }"
+            >
+                <mat-icon class="icon-mrc"> {{ item.icon }}</mat-icon> &nbsp; &nbsp; &nbsp;
+                <span class="sidenav-mrc" style="cursor: pointer" class="ml-4">
+                    {{ item.name | translate }}
+                </span>
+            </mat-toolbar-row>
+
+            <mat-list-item
+                *ngIf="item.name === 'Factarni'"
+                [class]="item.class + ' fdd'"
+                (click)="onHideSideBar()"
+                [routerLink]="[item.url]"
+            >
+                <mat-icon> {{ item.icon }}</mat-icon> &nbsp; &nbsp;
+                <span> {{ item.name | translate }}</span>
+            </mat-list-item>
+        </span>
+    </div>
+    <div [ngClass]="'bottomStick'">
+        <mat-divider class="bg-light"></mat-divider>
+        <mat-list-item [routerLink]="'/contact'" class="text-center text-white" style="">
+            <mat-icon class="icon-mrc"> feedback </mat-icon> &nbsp;&nbsp;
+            <span style="cursor: pointer" mat-list-item class="ml-4 sidenav-mrc">
+                {{ 'APP.SIDEBAR.CONTACT_US' | translate }}
+            </span>
+        </mat-list-item>
+    </div>
+    <div [ngClass]="appropriateClass"></div>
+</mat-nav-list>

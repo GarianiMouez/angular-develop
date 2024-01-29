@@ -1,0 +1,12 @@
+<div [formGroup]="parts" class="ddexample-time-input-container">
+  <input class="example-time-input-element" formControlName="hour" [placeholder]="this.focused ? '12' : ''" maxlength="2" size="3" aria-label="Hour" (input)="_handleInput()">
+  <span class="example-time-input-spacer">&#58;</span>
+  <input class="example-time-input-element" formControlName="minute" [placeholder]="this.focused ? '00' : ''" maxlength="2" size="3" aria-label="Minute" (input)="_handleInput()">
+  <span class="example-time-input-spacer">&nbsp;</span>
+  <input class="example-time-input-element" formControlName="period" maxlength="3" [placeholder]="this.focused ? 'AM' : ''" size="4" aria-label="Period" (input)="_handleInput()" (blur)="_handleBlur()">
+</div>
+
+
+<!-- Copyright 2019 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->

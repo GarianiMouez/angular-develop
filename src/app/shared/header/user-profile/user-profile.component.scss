@@ -1,0 +1,79 @@
+@use '@angular/material' as mat;
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+@mixin app-header-user-profile-theme($theme) {
+    /*    $primary: map-get($theme, primary);
+
+    .card-background {
+        background-image: linear-gradient(
+            180deg,
+            mat.get-color-from-palette($primary) 24%,
+            rgb(255, 255, 255) 24%
+        ) !important;
+    } */
+}
+
+::ng-deep .mat-menu-content {
+    background-color: rgb(239 239 239);
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+::ng-deep .mat-card-subtitle {
+    margin-bottom: 4px !important;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #54595d;
+    font-size:14px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin: auto;
+}
+
+.user-profile-img {
+    background: #0aaabb;
+    color: #fff;
+    margin-top: 0px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    -webkit-border-radius: 50%;
+}
+::ng-deep .mat-card {
+    min-width: 235px !important;
+}
+
+.profile-nav .user-heading {
+    /*     background: #072424;
+    color: rgb(255, 255, 255);
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    padding: 30px;
+    text-align: center; */
+}
+
+.profile-nav .user-heading a img {
+    width: 112px;
+    height: 112px;
+    /*     border-radius: 50%;
+    -webkit-border-radius: 50%; */
+}
+
+.profile-nav .user-heading h1 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.profile-nav .user-heading p {
+    font-size: 12px;
+}

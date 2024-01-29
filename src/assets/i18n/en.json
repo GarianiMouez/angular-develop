@@ -1,0 +1,913 @@
+{
+  "currentTheme": "ltr",
+  "APP": {
+    "NAVBAR": {
+      "DROPDOWN": {
+        "PROFILE": "Profile",
+        "SETTINGS": "Settings",
+        "LOGOUT": "Logout"
+      }
+    },
+    "SIDEBAR": {
+      "DAHSBOARD": "Dashboard",
+      "INVOICES": "Invoices",
+      "ESTIMATES": "Estimates",
+      "CLIENTS": "Clients",
+      "ARTICLES": "Articles",
+      "PROFILE": "Profile",
+      "ACCOUNT": "Account ",
+      "CHANGE_PASSWORD": "Change password",
+      "SETTINGS": "Settings",
+      "INVOICE": "Invoice",
+      "COMPANY": "Company",
+      "DISPLAY": "Display",
+      "CONTACT_US": "Contact us",
+      "MORE_ABOUT_BPS": "More About BPS"
+    },
+    "BODY": {
+      "REGISTER": {
+        "CARD": {
+          "TITLE": {
+            "TEXT": "Register",
+            "HINT": "Sign up"
+          },
+          "BODY": {
+            "USERNAME": {
+              "TEXT": " Username",
+              "PLACEHOLDER": "Username",
+              "REQUIRED_FIELD_MESSAGE": "Required field"
+            },
+            "COMPANY": {
+              "LOGO": "Company Logo",
+              "TEXT": "Company Name",
+              "PLACEHOLDER": "Company Name",
+              "REQUIRED_FIELD_MESSAGE": "Required field"
+            },
+            "ADDRESS": {
+              "TEXT": "Address",
+              "PLACEHOLDER": "Address",
+              "REQUIRED_FIELD_MESSAGE": "Required field"
+            },
+            "PHONE": {
+              "TEXT": "Phone",
+              "PLACEHOLDER": "Phone",
+              "REQUIRED_FIELD_MESSAGE": " Required field",
+              "INVALID_FORMAT_MESSAGE": " Phone number must Be 8 digits"
+            },
+            "FAX": {
+              "TEXT": "Fax",
+              "PLACEHOLDER": "Company Name",
+              "REQUIRED_FIELD_MESSAGE": "Required field",
+              "INVALID_FORMAT_MESSAGE": " Fax number must Be 8 digits"
+            },
+            "EMAIL": {
+              "TEXT": "E-mail",
+              "PLACEHOLDER": "Email",
+              "REQUIRED_FIELD_MESSAGE": " Required field",
+              "INVALID_FORMAT_MESSAGE": "Invalid Email Format"
+            },
+
+            "PASSWORD": {
+              "TEXT": "Password",
+              "PLACEHOLDER": "  Password",
+              "REQUIRED_FIELD_MESSAGE": " Required Field",
+              "MIN_LENGTH_MESSAGE": " Your password should contain at least 8 characters",
+              "PASSWORD_PATTERN_MESSAGE": " Your password should contain letters, number and special characters "
+            },
+            "NEW_PASSWORD": {
+              "TEXT": "New Password",
+              "PLACEHOLDER": "Your New  Password",
+              "REQUIRED_FIELD_MESSAGE": " Required Field",
+              "MIN_LENGTH_MESSAGE": " Your New password should contain at least 8 characters",
+              "PASSWORD_PATTERN_MESSAGE": " Your New password should contain letters, number and special characters "
+            },
+            "CONFIRM_PASSWORD": {
+              "TEXT": "Confirm Password",
+              "PLACEHOLDER": "Confirm your password",
+              "REQUIRED_FIELD_MESSAGE": " Required field ",
+              "MATCHING_PASSWORDS_MESSAGE": "The Passwords do not match. Please try again "
+            }
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "REGISTRATION_BTN": "Register",
+              "NEXT_BTN": "Continue",
+              "CANCEL": "Cancel"
+            },
+            "TEXTS": {
+              "SIGN_UP_WITH": "Sign up with",
+              "HAVE_ACCOUNT_TEXT": "You already have an account",
+              "LOGIN_TEXT": "Login"
+            },
+            "PRIVICY": {
+              "TEXT": "By clicking Register  By clicking Register, I agree that I have read and accepted the Parkini Terms of Use and Privacy Policy"
+            }
+          }
+        }
+      },
+      "LOGIN": {
+        "CARD": {
+          "TITLE": {
+            "TEXT": "Login",
+            "HINT": "Access your account"
+          },
+          "EMAIL": {
+            "TEXT": "Username ",
+            "PLACEHOLDER": "Username",
+            "REQUIRED_FIELD_MESSAGE": "Required field",
+            "INVALID_FORMAT_MESSAGE": "Invalid format"
+          },
+          "PASSWORD": {
+            "TEXT": "Password",
+            "PLACEHOLDER": "Your password",
+            "REQUIRED_FIELD_MESSAGE": " Required field "
+          },
+          "NEW_PASSWORD": {
+            "TEXT": "Password",
+            "PLACEHOLDER": "Your password",
+            "REQUIRED_FIELD_MESSAGE": " Required field "
+          },
+          "INEXISTANT_ACCOUNT": {
+            "TEXT": "You don't have an account ?"
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "LOGIN_BTN": "Login"
+            },
+            "TEXTS": {
+              "FORGOT_PASSWORD": "Forgot password",
+              "RESET_PASSWORD": "Reset Your Password"
+            }
+          }
+        }
+      },
+      "CLIENTS": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "Clients",
+            "BUTTONS": {
+              "ADD_BTN": "Add"
+            }
+          },
+          "FOOTER": {
+            "TEXT": "Clients Number"
+          }
+        },
+        "TABLE": {
+          "TH": {
+            "NAME": "Name",
+            "ADDRESS": "Address",
+            "EMAIL": "E-mail",
+            "MATRICULE_FISCALE": "Matricule Fiscale",
+            "PHONE": "Phone",
+            "FAX": "Fax",
+            "ACTIONS": "Actions"
+          },
+          "TD": {
+            "SEARCH": {
+              "PLACEHOLDER": "Find Clients"
+            }
+          }
+        },
+        "POPUP": {
+          "HEADER": {
+            "CREATION_HEADER": {
+              "TITLE": "Add Client"
+            },
+            "EDITION_HEADER": {
+              "TITLE": "Edit Client"
+            }
+          },
+          "BODY": {
+            "NAME": {
+              "TEXT": "Name",
+              "PLACEHOLDER": "Name",
+              "REQUIRED": "Name is Required",
+              "ALREADY_EXIST": "Name Already Exist"
+            },
+            "EMAIL": {
+              "TEXT": "Email",
+              "PLACEHOLDER": "Email",
+              "REQUIRED": "Email Required",
+              "INVALID_FORMAT_MESSAGE": "Invalid format"
+            },
+            "ADDRESS": {
+              "TEXT": "Address",
+              "PLACEHOLDER": "Address",
+              "REQUIRED": "Address is required"
+            },
+            "MATRICULE_FISCALE": {
+              "TEXT": "Matricule Fiscale",
+              "PLACEHOLDER": "Matricule Fiscale",
+              "REQUIRED": "Matricule Fiscale is required",
+              "STATUS_INVALID": "Status character is Invalid , Must be  ( M, C, P, N , E )",
+              "TVA_INVALID": "TVA character is Invalid , Must be  ( A, B, P, D OR  N )"
+            },
+            "TVA": {
+              "TEXT": "TVA",
+              "PLACEHOLDER": "TVA",
+              "REQUIRED": "TVA is required",
+              "TRUE": "Yes",
+              "FALSE": "No"
+            },
+
+            "PHONE": {
+              "TEXT": "Phone",
+              "PLACEHOLDER": "Phone",
+              "REQUIRED_FIELD_MESSAGE": " Required field",
+              "INVALID_FORMAT_MESSAGE": " Phone number must Be 8 digits"
+            },
+            "FAX": {
+              "TEXT": "Fax",
+              "PLACEHOLDER": "Company Name",
+              "REQUIRED_FIELD_MESSAGE": "Required field",
+              "INVALID_FORMAT_MESSAGE": " Fax number must Be 8 digits"
+            },
+            "STAMP": {
+              "TEXT": "Stamp",
+              "PLACEHOLDER": "Stamp",
+              "REQUIRED": "Stamp is required",
+              "TRUE": "Yes",
+              "FALSE": "No"
+            },
+            "NO_CLIENT": "No Client have been selected"
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "Validate",
+              "CANCEL": "Cancel"
+            }
+          }
+        },
+        "DELETION_POPUP": {
+          "HEADER": {
+            "TEXT": "Remove"
+          },
+          "BODY": {
+            "TEXT": "Are you sure you want to delete "
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "Validate",
+              "CANCEL": "Cancel"
+            }
+          }
+        },
+        "DETAILS_POPUP": {
+          "HEADER": {
+            "TEXT": "Details"
+          }
+        }
+      },
+      "ARTICLES": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "Articles",
+            "BUTTONS": {
+              "ADD_BTN": "Add"
+            }
+          },
+          "FOOTER": {
+            "TEXT": "Articles Number"
+          }
+        },
+        "TABLE": {
+          "TH": {
+            "CODE": "Code",
+            "ARTICLE": "Article",
+            "PRICE": "Price",
+            "TVA": "Tva",
+            "STATUS": "Status",
+            "ACTIONS": "Actions"
+          },
+          "TD": {
+            "SEARCH": {
+              "PLACEHOLDER": "Find Articles"
+            }
+          }
+        },
+        "POPUP": {
+          "HEADER": {
+            "CREATION_HEADER": {
+              "TITLE": "Add Article"
+            },
+            "EDITION_HEADER": {
+              "TITLE": "Edit Article"
+            }
+          },
+          "BODY": {
+            "CODE": {
+              "TEXT": "Code",
+              "PLACEHOLDER": "Code",
+              "REQUIRED": "Code is Required",
+              "ALREADY_EXIST": "Already Exist"
+            },
+            "ARTICLE": {
+              "TEXT": "Article",
+              "PLACEHOLDER": "Article",
+              "REQUIRED": "Article Required",
+              "MAXLENGHT": "Article Description Must not through 60 characters"
+            },
+            "PRICE": {
+              "TEXT": "Price",
+              "PLACEHOLDER": "Price",
+              "REQUIRED": "Price is required"
+            },
+            "TVA": {
+              "TEXT": "TVA",
+              "PLACEHOLDER": "TVA",
+              "REQUIRED": "TVA is required"
+            },
+            "STATUS": {
+              "TEXT": "Status",
+              "PLACEHOLDER": "Status",
+              "REQUIRED": "Status is required"
+            }
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "Validate",
+              "CANCEL": "Cancel"
+            }
+          }
+        },
+        "DELETION_POPUP": {
+          "HEADER": {
+            "TEXT": "Remove"
+          },
+          "BODY": {
+            "TEXT": "Are you sure you want to delete "
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "Validate",
+              "CANCEL": "Cancel"
+            }
+          }
+        },
+        "DETAILS_POPUP": {
+          "HEADER": {
+            "TEXT": "Details"
+          }
+        }
+      },
+      "ESTIMATES": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "Estimates",
+            "BUTTONS": {
+              "ADD_BTN": "Add"
+            }
+          },
+          "FOOTER": {
+            "TEXT": "Estimates Number"
+          }
+        },
+        "TABLE": {
+          "TH": {
+            "NUMBER": "N° Estimtate",
+            "DATE": "Date",
+            "VALIDITY": "Validity",
+            "CLIENT": "Client",
+            "TOTAL_HT": "Total HT",
+            "TOTAL_TTC": "Total TTC",
+            "STATUS": "Status",
+            "ACTIONS": "Actions"
+          },
+          "TD": {
+            "SEARCH": {
+              "PLACEHOLDER": "Find Estimates"
+            }
+          }
+        },
+        "POPUP": {
+          "HEADER": {
+            "CREATION_HEADER": {
+              "TITLE": "Add Estimate"
+            },
+            "EDITION_HEADER": {
+              "TITLE": "Edit Estimate"
+            }
+          },
+          "BODY": {
+            "NUMBER": {
+              "TEXT": "Number",
+              "PLACEHOLDER": "Number",
+              "REQUIRED": "Number is Required",
+              "ALREADY_EXIST": "Already Exist"
+            },
+            "DATE": {
+              "TEXT": "Date",
+              "PLACEHOLDER": "Date",
+              "REQUIRED": "Date is Required"
+            },
+            "VALIDITY_DATE": {
+              "TEXT": "Validity Date",
+              "PLACEHOLDER": "Validity Date",
+              "REQUIRED": "Validity Date is Required"
+            },
+            "CLIENT": {
+              "TEXT": "Choose Client",
+              "DETAILS": "Client Details",
+              "PLACEHOLDER": "Choose Client",
+              "NO_CLIENT_SELECTED": "No Client have been selected"
+            },
+            "ARTICLE": {
+              "TEXT": "Choose Article",
+              "PLACEHOLDER": "Article",
+              "REQUIRED": "Article is Required"
+            },
+            "SIGNATURE": "Signature",
+            "DISCOUNT": {
+              "TITLE": "Discount Estimate",
+              "TEXT": "Discount",
+              "PLACEHOLDER": "Discount Total"
+            },
+            "TVA": {
+              "TEXT": "TVA",
+              "PLACEHOLDER": "TVA",
+              "REQUIRED": "TVA is required"
+            },
+            "STATUS": {
+              "TEXT": "Status",
+              "PLACEHOLDER": "Status",
+              "REQUIRED": "Status is required"
+            },
+            "PDF_LANGUAGES": "PDF Languages",
+            "LINES": {
+              "CODE": {
+                "TEXT": "Code",
+                "PLACEHOLDER": "Code",
+                "REQUIRED": "Code is Required",
+                "ALREADY_EXIST": "Already Exist"
+              },
+              "QUANTITY": {
+                "TEXT": "Qunatity",
+                "PLACEHOLDER": "Qunatity",
+                "REQUIRED": "Qunatity is Required"
+              },
+              "PRICE": {
+                "TEXT": "Price",
+                "PLACEHOLDER": "Price",
+                "REQUIRED": "Price is Required"
+              },
+              "TVA": {
+                "TEXT": "TVA",
+                "PLACEHOLDER": "TVA",
+                "REQUIRED": "TVA is Required"
+              },
+              "DISCOUNT": {
+                "TEXT": "Discount Line",
+                "PLACEHOLDER": "Discount",
+                "REQUIRED": "Discount is Required"
+              }
+            },
+            "TOTAL_HT": "Total HT",
+            "TOTAL_TVA": "Total TVA",
+            "TOTAL_TTC": "Total TTC",
+            "DRAFT": "Draft ",
+            "MAKE_AS_PAID": "Valid"
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "Save",
+              "CANCEL": "Cancel"
+            }
+          }
+        },
+        "DELETION_POPUP": {
+          "HEADER": {
+            "TEXT": "Remove"
+          },
+          "BODY": {
+            "TEXT": "Are you sure you want to delete "
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "Save",
+              "CANCEL": "Cancel"
+            }
+          }
+        },
+        "DETAILS_POPUP": {
+          "HEADER": {
+            "TEXT": "Details"
+          }
+        }
+      },
+
+      "INVOICES": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "Invoices",
+            "BUTTONS": {
+              "ADD_BTN": "Add"
+            }
+          },
+          "FOOTER": {
+            "TEXT": "Invoices Number"
+          }
+        },
+        "TABLE": {
+          "TH": {
+            "NUMBER": "N° Invoice",
+            "DATE": "Date",
+            "CLIENT": "Client",
+            "TOTAL_HT": "Total HT",
+            "TOTAL_TTC": "Total TTC",
+            "TOTAL_TVA": "Total TVA",
+            "STATUS": "Status",
+            "ACTIONS": "Actions"
+          },
+          "TD": {
+            "SEARCH": {
+              "PLACEHOLDER": "Find Invoices"
+            }
+          }
+        },
+        "POPUP": {
+          "HEADER": {
+            "CREATION_HEADER": {
+              "TITLE": "Add Invoice"
+            },
+            "EDITION_HEADER": {
+              "TITLE": "Edit Invoice"
+            }
+          },
+          "BODY": {
+            "NUMBER": {
+              "TEXT": "Number",
+              "PLACEHOLDER": "Number",
+              "REQUIRED": "Number is Required",
+              "ALREADY_EXIST": "Already Exist"
+            },
+            "DATE": {
+              "TEXT": "Date",
+              "PLACEHOLDER": "Date",
+              "REQUIRED": "Date is Required"
+            },
+            "CLIENT": {
+              "TEXT": "Choose Client",
+              "DETAILS": "Client Details",
+              "PLACEHOLDER": "Choose Client",
+              "NO_CLIENT_SELECTED": "No Client have been selected"
+            },
+            "ARTICLE": {
+              "TEXT": "Choose Article",
+              "PLACEHOLDER": "Article",
+              "REQUIRED": "Article is Required"
+            },
+            "SIGNATURE": "Signature",
+            "DISCOUNT": {
+              "TITLE": "Discount Invoice",
+              "TEXT": "Discount",
+              "PLACEHOLDER": "Discount Total"
+            },
+            "TVA": {
+              "TEXT": "TVA",
+              "PLACEHOLDER": "TVA",
+              "REQUIRED": "TVA is required"
+            },
+            "STATUS": {
+              "TEXT": "Status",
+              "PLACEHOLDER": "Status",
+              "REQUIRED": "Status is required"
+            },
+            "PDF_LANGUAGES": "PDF Languages",
+            "LINES": {
+              "CODE": {
+                "TEXT": "Code",
+                "PLACEHOLDER": "Code",
+                "REQUIRED": "Code is Required",
+                "ALREADY_EXIST": "Already Exist"
+              },
+              "QUANTITY": {
+                "TEXT": "Qunatity",
+                "PLACEHOLDER": "Qunatity",
+                "REQUIRED": "Qunatity is Required"
+              },
+              "PRICE": {
+                "TEXT": "Price",
+                "PLACEHOLDER": "Price",
+                "REQUIRED": "Price is Required"
+              },
+              "TVA": {
+                "TEXT": "TVA",
+                "PLACEHOLDER": "TVA",
+                "REQUIRED": "TVA is Required"
+              },
+              "DISCOUNT": {
+                "TEXT": "Discount Line",
+                "PLACEHOLDER": "Discount",
+                "REQUIRED": "Discount is Required"
+              }
+            },
+            "TOTAL_HT": "Total HT",
+            "TOTAL_TVA": "Total TVA",
+            "TOTAL_TTC": "Total TTC",
+            "STAMP": "Stamp",
+            "DRAFT": "Draft ",
+            "MAKE_AS_PAID": "Valid"
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "Save",
+              "CANCEL": "Cancel"
+            }
+          }
+        },
+        "DELETION_POPUP": {
+          "HEADER": {
+            "TEXT": "Remove"
+          },
+          "BODY": {
+            "TEXT": "Are you sure you want to delete "
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "save",
+              "CANCEL": "Cancel"
+            }
+          }
+        },
+        "DETAILS_POPUP": {
+          "HEADER": {
+            "TEXT": "Details"
+          }
+        }
+      },
+      "ACCOUNT": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "Account"
+          },
+          "BODY": {
+            "NAME": "Name",
+            "EMAIL": "E-mail",
+            "SIGNATURE": "Signature"
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "Validate",
+              "CANCEL": "Cancel"
+            }
+          }
+        }
+      },
+      "CHANGE_PASSWORD": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "Change password"
+          },
+          "BODY": {
+            "CURRENT_PASSWORD": "Current password",
+            "NEW_PASSWORD": "New password",
+            "CONFIRM_PASSWORD": "Confirm password",
+            "SHOW_PASSWORD": "Show password",
+            "REQUIRED_FIELD_MESSAGE": " Required field ",
+            "MATCHING_PASSWORDS_MESSAGE": "The Passwords do not match. Please try again "
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "Validate",
+              "CANCEL": "Cancel"
+            }
+          }
+        }
+      },
+      "DISPLAY": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "Display"
+          },
+          "BODY": {
+            "LANGUAGES": "languages",
+            "THEMES": "Themes"
+          }
+        }
+      },
+      "COMPANY": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "Company"
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "Validate",
+              "CANCEL": "Cancel"
+            }
+          }
+        },
+        "TABLE": {
+          "TH": {
+            "NAME": "Name",
+            "ADDRESS": "Address",
+            "MATRICULE_FISCALE": "Matricule Fiscale",
+            "PHONE": "Phone",
+            "FAX": "Fax",
+            "RIB": "Rib",
+            "ACTIONS": "Actions"
+          },
+          "TD": {
+            "SEARCH": {
+              "PLACEHOLDER": "Find Clients"
+            }
+          },
+          "BODY": {
+            "NAME": {
+              "TEXT": "Name",
+              "PLACEHOLDER": "Name",
+              "REQUIRED": "Name is Required",
+              "ALREADY_EXIST": "Name Already Exist"
+            },
+            "ADDRESS": {
+              "TEXT": "Address",
+              "PLACEHOLDER": "Address",
+              "REQUIRED": "Address is required"
+            },
+            "MATRICULE_FISCALE": {
+              "TEXT": "Matricule Fiscale",
+              "PLACEHOLDER": "Matricule Fiscale",
+              "REQUIRED": "Matricule Fiscale is required",
+              "STATUS_INVALID": "Status character is Invalid , Must be  ( M, C, P, N , E )",
+              "TVA_INVALID": "TVA character is Invalid , Must be  ( A, B, P, D OR  N )"
+            },
+
+            "PHONE": {
+              "TEXT": "Phone",
+              "PLACEHOLDER": "Phone",
+              "REQUIRED_FIELD_MESSAGE": " Required field",
+              "INVALID_FORMAT_MESSAGE": " Phone number must Be 8 digits"
+            },
+            "FAX": {
+              "TEXT": "Fax",
+              "PLACEHOLDER": "Company Name",
+              "REQUIRED_FIELD_MESSAGE": "Required field",
+              "INVALID_FORMAT_MESSAGE": " Fax number must Be 8 digits"
+            },
+            "RIB": {
+              "TEXT": "RIB",
+              "PLACEHOLDER": "RIB",
+              "REQUIRED": "RIB is required"
+            }
+          }
+        }
+      },
+
+      "CONTACT": {
+        "CARD": {
+          "TITLE": "Contact us",
+          "BODY": {
+            "TITLE": "Title",
+            "MESSAGE": "Message"
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "SEND": "Send",
+              "CANCEL": "Cancel"
+            }
+          }
+        }
+      },
+      "TVA": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "TVA",
+            "BUTTONS": {
+              "ADD_BTN": "Add TVA"
+            }
+          },
+          "FOOTER": {
+            "TEXT": "TVA Numbers"
+          }
+        },
+        "TABLE": {
+          "TH": {
+            "TVA": "TVA",
+            "ACTIONS": "Actions"
+          },
+          "BODY": {
+            "TVA": {
+              "TEXT": "TVA",
+              "PLACEHOLDER": "TVA",
+              "REQUIRED": "TVA is Required",
+              "INVALID": "TVA must be between 0 and 99"
+            }
+          }
+        }
+      },
+
+      "PREFERENCES": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "Preferences"
+          },
+          "BODY": {
+            "DIGITS_NUMBER": {
+              "TEXT": "Number of price's digits",
+              "PLACEHOLDER": "Number of price's digits",
+              "REQUIRED": "Number of price's digits is Required",
+              "MAX": "Maximum of digits "
+            },
+            "QUANTITY_NUMBER": {
+              "TEXT": "Number of qunatity digits",
+              "PLACEHOLDER": "Number of qunatity digits",
+              "REQUIRED": "Number of qunatity digits is Required",
+              "MAX": "Maximum of digits "
+            },
+            "STAMP": {
+              "TEXT": "Stamp",
+              "PLACEHOLDER": "Stamp",
+              "REQUIRED": "Stamp  is Required"
+            },
+            "FOOTER": {
+              "TEXT": "Footer",
+              "PLACEHOLDER": "Footer",
+              "REQUIRED": "Footer is Required"
+            },
+            "DISCOUNT": {
+              "TEXT": "Discount",
+              "PLACEHOLDER": "Discount"
+            },
+            "EDIT_ITEM": {
+              "TEXT": "Edit Item",
+              "PLACEHOLDER": "Edit Item"
+            }
+          },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "Validate",
+              "CANCEL": "Cancel"
+            }
+          }
+        }
+      },
+
+      "DASHBOARD": {
+        "SALES": {
+          "HEADER": { "TITLE": "Sales" },
+          "BODY": {
+            "ARTICLE": "Article",
+            "INVOICE": "Quantity",
+            "TOTAL": "Total"
+          }
+        },
+        "ARTICLES": {
+          "HEADER": { "TITLE": "Article" },
+          "BODY": {
+            "ARTICLE": "Article",
+            "QUANTITY": "Quantity",
+            "PRICE": "Price",
+            "TOTAL": "Total"
+          }
+        },
+        "CLIENTS": {
+          "HEADER": { "TITLE": "Clients" },
+          "BODY": {
+            "NAME": "Name",
+            "QUANTITY": "Quantity",
+            "INVOICE": "Invoice",
+            "TOTAL_HT": "Total HT",
+            "TOTAL_TTC": "Total TTC"
+          }
+        },
+        "01": "Jannuary",
+        "02": "February",
+        "03": "March",
+        "04": "April",
+        "05": "May",
+        "06": "June",
+        "07": "July",
+        "08": "August",
+        "09": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December",
+        "PICK_DATES": "Please Pick Dates",
+        "ENTER_DATES": "Enter a date range"
+      },
+
+      "RESET_PASSWORD": {
+        "CARD": {
+          "HEADER": {
+            "TITLE": "Reset Password"
+          },
+          "BODY": { "EMAIL": "E-mail" },
+          "FOOTER": {
+            "BUTTONS": {
+              "VALIDATE": "Reset Password",
+              "BACK": "Back"
+            }
+          }
+        }
+      },
+
+      "OTHERS": {
+        "OR": "or"
+      }
+    },
+    "SUCCESS": {
+      "SUBMIT": { "TEXT": " Submit Successfully  " }
+    }
+  }
+}

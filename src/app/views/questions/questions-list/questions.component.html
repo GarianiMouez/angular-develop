@@ -1,0 +1,117 @@
+<mat-card class="list-page offset-md-1 col-md-10" style="background-color: #ffffff; min-height: 85%">
+    <mat-card-title class="mr-2 ml-2"
+        >{{ 'Questions' }}
+        
+
+        <line-add-edit
+            #add_modal
+            [data]="question_form"
+            [headerName]="'QUESTIONS'"
+            [formTemplate]="question_form"
+            [modalSize]="'modal-md'"
+        ></line-add-edit>
+    </mat-card-title>
+
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <mat-form-field style="width: 100%" class="mr-2 ml-2">
+                <input matInput [placeholder]="'APP.BODY.CLIENT.TABLE.TD.SEARCH.PLACEHOLDER' | translate" #input />
+            </mat-form-field>
+        </div>
+
+        <!--         <div class="col-md-3 offset-md-1"><app-select-filter [placeholder]="'Status'"> </app-select-filter></div>
+-->
+    </div>
+
+    <div class="mat-elevation-z1 rounded mr-2 ml-2" style="border-radius: 30px">
+        <table mat-table matSort [dataSource]="questions" style="width: 100%; background-color: #ffffff">
+            <ng-container matColumnDef="name">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by nom">
+                    {{ 'Libellé' }}
+                </th>
+                <td mat-cell *matCellDef="let element">
+                    <span class="">
+                        {{ element?.name }}
+                    </span>
+                </td>
+            </ng-container>
+            <ng-container matColumnDef="type">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by nom">
+                    {{ 'Type' }}
+                </th>
+                <td mat-cell *matCellDef="let element">
+                    <span class="">
+                        {{ element?.type }}
+                    </span>
+                </td>
+            </ng-container>
+
+            <ng-container matColumnDef="etat">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by Total HT">
+                    {{ 'Etat' }}
+                </th>
+                <td mat-cell *matCellDef="let element">
+                    <span
+                        class="badge border"
+                        [ngClass]="{
+                            '  text-success': element?.etat === questionStatus[0],
+                            '  text-danger': element?.etat === questionStatus[1]
+                        }"
+                    >
+                        {{
+                            element?.etat === questionStatus[0]
+                                ? 'Activée'
+                                : element?.etat === questionStatus[1]
+                                ? 'Desactivée'
+                                : ''
+                        }}
+                    </span>
+                </td>
+            </ng-container>
+
+            <ng-container matColumnDef="actions">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by Total TVA">
+                    {{ 'APP.BODY.CLIENT.TABLE.TH.ACTIONS' | translate }}
+                </th>
+                <td mat-cell *matCellDef="let element">
+                    <!--       <button #edit mat-icon-button class=" ">
+                      <mat-icon class="text-warning">edit</mat-icon>
+                  </button>
+                  <button #delete mat-icon-button class="ml-2" placement="top">
+                      <mat-icon color="warn">delete</mat-icon>
+                  </button> -->
+                    <line-add-edit
+                        #edit_modal
+                        [data]="element"
+                        [headerName]="'QUESTIONS'"
+                        [formTemplate]="question_form"
+                        [modalSize]="'modal-md'"
+                    ></line-add-edit>
+
+                    <line-delete
+                        [headerName]="'CLIENT'"
+                        [data]="element"
+                        (onSendData)="onDeleteQuestion($event)"
+                    ></line-delete>
+                </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="questionColumns; sticky: true"></tr>
+            <tr mat-row *matRowDef="let row; columns: questionColumns"></tr>
+        </table>
+    </div>
+
+    <div class="mat-elevation-z1 rounded mr-2 ml-2" style="border-radius: 30px"></div>
+    <mat-card-footer style="margin-top: auto" class="mr-2 ml-2">
+        <mat-paginator
+            [pageSizeOptions]="[10, 15, 30]"
+            showFirstLastButtons
+            aria-label="Select page of periodic elements"
+        >
+        </mat-paginator>
+    </mat-card-footer>
+</mat-card>
+
+<ng-template #question_form let-data="data">
+    <app-question-form *ngIf="!!data" [initialValues]="data" (questionSubmit)="save($event)"></app-question-form>
+</ng-template>

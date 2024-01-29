@@ -1,0 +1,89 @@
+.bottomRelative {
+    position: relative;
+}
+
+.bottomStick {
+    /*border-top:1px solid green;border-bottom:1px solid green;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mat-list-base {
+    padding-top: 0px;
+}
+
+::ng-deep .sidebar-panel .mat-expansion-panel-body {
+    padding: 0 !important;
+}
+
+.example-container {
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.example-sidenav {
+    user-select: none;
+}
+.full-width {
+    width: 100%;
+}
+.menu-button {
+    transition: 300ms ease-in-out;
+    transform: rotate(0deg);
+}
+.menu-button.rotated {
+    transform: rotate(180deg);
+}
+.submenu {
+    overflow-y: hidden;
+    transition: transform 300ms ease;
+    transform: scaleY(0);
+    transform-origin: top;
+    padding-left: 30px;
+}
+.submenu.expanded {
+    transform: scaleY(1);
+}
+
+.t {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0px;
+}
+
+/* ::ng-deep .mat-expansion-panel-body {
+
+}
+
+::ng-deep .mat-expansion-panel {
+  background-color: #2b6777 !important;
+  color: white !important;
+}
+
+*/
+::ng-deep .sidebar-child .mat-expansion-indicator::after {
+    color: white !important;
+}
+
+.active {
+    background-color: rgb(255, 255, 255);
+    color: #202020 !important ;
+    border-style: groove;
+    border-color: #999999;
+    border-width: 0.05px;
+    padding-left: 2px !important ;
+}
+
+.mat-drawer-inner-container {
+    background-color: #2b5132 !important;
+}

@@ -1,0 +1,16 @@
+<div
+    class=""
+    *ngIf="
+        (minValue !== null || minValue !== undefined) &&
+        maxValue &&
+        ceil &&
+        (floor !== null || floor !== undefined)
+    "
+>
+    <ngx-slider
+        (userChangeEnd)="onSendData($event)"
+        [(value)]="minValue"
+        [(highValue)]="maxValue"
+        [options]="options"
+    ></ngx-slider>
+</div>

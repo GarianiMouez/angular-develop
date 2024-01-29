@@ -1,0 +1,16 @@
+<div style="" [class]="'theme-wrapper  '">
+    <mat-sidenav-container class="h-screen w-screen">
+        <mat-sidenav class="text-mrc" #sidenav [mode]="'side'" [opened]="isModalOpen$ | async">
+            <app-sidebar-component (onHideSideBar)="('')"></app-sidebar-component>
+        </mat-sidenav>
+
+        <div class="wrapper">
+            <app-header-component [sidenav]="sidenav"></app-header-component>
+            <div class="content">
+                <router-outlet WindowSize></router-outlet>
+            </div>
+
+            <app-footer-component [class]="'    '"></app-footer-component>
+        </div>
+    </mat-sidenav-container>
+</div>
